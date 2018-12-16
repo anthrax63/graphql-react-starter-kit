@@ -10,7 +10,7 @@ import GoBackButton from '../GoBackButton';
 const messages = defineMessages({
   appTitle: {
     id: 'core.appTitle',
-    defaultMessage: 'Electronic educational resources of Moscow Region',
+    defaultMessage: 'Application',
     description: 'Main application title'
   }
 });
@@ -24,7 +24,7 @@ class Layout extends React.Component {
     me: PropTypes.object.isRequired,
     navigate: PropTypes.func.isRequired,
     logout: PropTypes.func.isRequired,
-    showGoBackBtn: PropTypes.boolean
+    showGoBackBtn: PropTypes.bool
   };
 
   static defaultProps = {

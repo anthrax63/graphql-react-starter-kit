@@ -30,11 +30,11 @@ function getDataFromTemplate(migrationName) {
 export const name = '${migrationName}.js';
 export const description = '';
 
-export const up = async () => {
+export const up = async() => {
 
 };
 
-export const down = async () => {
+export const down = async() => {
 
 };
 

@@ -7,7 +7,7 @@ import s from './Home.css';
 const messages = defineMessages({
   welcome: {
     id: 'home.welcome',
-    defaultMessage: 'Welcome to EOR!',
+    defaultMessage: 'Welcome to portal!',
     description: 'Welcome message'
   },
   instruction: {

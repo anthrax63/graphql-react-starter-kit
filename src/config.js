@@ -7,7 +7,7 @@ export const externalHost = process.env.WEBSITE_HOSTNAME || host;
 export const externalBaseUrl = `${scheme}://${externalHost}`;
 
 
-export const migrationsOnStart = (!!process.env.MIGRATIONS_ON_START !== false);
+export const migrationsOnStart = !process.env.DISABLE_MIGRATIONS_ON_START;
 export const migrationsDirection = process.env.MIGRATIONS_DIRECTION || 'up';
 
 export const logLevel = process.env.LOG_LEVEL || (process.env.NODE_ENV === 'production' ? 'error' : 'debug');

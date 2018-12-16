@@ -12,8 +12,8 @@ import FlatButton from 'material-ui/FlatButton';
 const messages = defineMessages({
   title: {
     id: 'login.title',
-    defaultMessage: 'Login to Portal of Electronic Education Resources',
-    description: 'Login to Portal of Electronic Education Resources'
+    defaultMessage: 'Login to the Application',
+    description: 'Login to the Application'
   },
   message: {
     id: 'login.message',
@@ -163,7 +163,6 @@ class Login extends React.Component {
         onClick={handleDialogClose}
       />
     ];
-    console.log('history', this.context.history);
     return (
       <div className={s.root}>
         <div className={s.container}>

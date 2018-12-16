@@ -38,7 +38,6 @@ const createListComponent = ({name, shape, columns, filterFields, editorComponen
     }
 
     handleItemsSelected = async(indexes) => {
-      console.log('handleItemsSelected', indexes);
       this.setState((state, props) =>
         ({
           ...state,
@@ -71,7 +70,6 @@ const createListComponent = ({name, shape, columns, filterFields, editorComponen
     };
 
     handleEditorSave = async(values) => {
-      console.log('!!handleEditorSave');
       const {save, fetch, query} = this.props;
       await save(values);
       await fetch(query);

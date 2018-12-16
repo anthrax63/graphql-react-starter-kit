@@ -1,7 +1,7 @@
 import {ActionTypes} from './actions';
 
 export default function(state = {values: [], query: {limit: 10, skip: 0}, totalCount: 0},
-                         action) {
+                        action) {
   const {type, payload} = action;
   switch (type) {
     case ActionTypes.fetch.updateQuery:
@@ -39,41 +39,6 @@ export default function(state = {values: [], query: {limit: 10, skip: 0}, totalC
       return {
         ...state,
         editItem: null
-      };
-    case ActionTypes.editor.search.schools.success:
-      return {
-        ...state,
-        foundSchools: payload
-      };
-    case ActionTypes.editor.search.localities.success:
-      return {
-        ...state,
-        foundLocalities: payload
-      };
-    case ActionTypes.editor.clear.schools:
-      return {
-        ...state,
-        foundSchools: null
-      };
-    case ActionTypes.editor.search.publishers.success:
-      return {
-        ...state,
-        foundPublishers: payload
-      };
-    case ActionTypes.editor.clear.publishers:
-      return {
-        ...state,
-        foundPublishers: null
-      };
-    case ActionTypes.editor.search.regions.success:
-      return {
-        ...state,
-        foundRegions: payload
-      };
-    case ActionTypes.editor.clear.regions:
-      return {
-        ...state,
-        foundRegions: null
       };
   }
   return state;

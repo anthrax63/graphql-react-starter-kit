@@ -16,25 +16,8 @@ export function fetchCurrentUser() {
         photo {
           ready,
           link
-        },
-        school {
-          id,
-          name,
-          balance,
-          contractStatus
-        },
-        publisher {
-          id,
-          name,
-          description,
-          adress,
-          phone,
-          support
-        },
-        accessRoles,
-        schoolApproved
-      },
-      freeBalance
+        }
+      }
     }
   `;
   return async(dispatch, getState, {graphqlRequest, history}) => {

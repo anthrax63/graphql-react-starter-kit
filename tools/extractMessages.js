@@ -20,6 +20,7 @@ async function writeMessages(fileName, msgs) {
 async function mergeToFile(locale, toBuild) {
   const fileName = `src/messages/${locale}.json`;
   const originalMessages = {};
+
   try {
     const oldFile = await fs.readFile(fileName);
 
@@ -31,14 +32,15 @@ async function mergeToFile(locale, toBuild) {
     }
 
     oldJson.forEach((message) => {
+      delete message.files;
       originalMessages[message.id] = message;
-      delete originalMessages[message.id].files;
     });
   } catch (err) {
     if (err.code !== 'ENOENT') {
       throw err;
     }
   }
+
 
   Object.keys(messages).forEach((id) => {
     const newMsg = messages[id];
@@ -52,7 +54,7 @@ async function mergeToFile(locale, toBuild) {
 
   const result = Object.keys(originalMessages)
     .map((key) => originalMessages[key])
-    .filter((msg) => msg.files || msg.message);
+    .filter((msg) => msg.files);
 
   await writeMessages(fileName, result);
 
@@ -108,10 +110,6 @@ async function extractMessages({watch} = {}) {
   const compareMessages = (a, b) => compare(a.id, b.id);
 
   const processFile = async(fileName) => {
-    // Exclude bootstrap files
-    if (/bootstrap/.test(fileName)) {
-      return;
-    }
     try {
       const code = await fs.readFile(fileName);
       const posixName = posixPath(fileName);

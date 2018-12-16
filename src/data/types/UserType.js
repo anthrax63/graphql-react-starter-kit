@@ -29,7 +29,7 @@ const UserType = new GraphQLObjectType({
       textSearch: true
     },
     middleName: {
-      type: new GraphQLNonNull(GraphQLString),
+      type: GraphQLString,
       filter: true,
       sort: true
     },

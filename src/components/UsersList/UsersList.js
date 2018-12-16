@@ -12,11 +12,6 @@ const messages = defineMessages({
     defaultMessage: 'E-mail',
     description: 'E-mail'
   },
-  columnSchoolApproved: {
-    id: 'usersList.columnSchoolApproved',
-    defaultMessage: 'Status',
-    description: 'Status'
-  },
   columnPhoto: {
     id: 'usersList.columnPhoto',
     defaultMessage: 'Photo',
@@ -63,14 +58,6 @@ export default createListComponent({
     {
       name: 'login',
       label: messages.columnEmail
-    },
-    {
-      cellText: (item) => {
-        const text = item.schoolApproved ? 'Подтвержден' : 'Не подтвержден';
-        const color = item.schoolApproved ? {color: 'green'} : {color: 'red'};
-        return <div style={color}>{text}</div>;
-      },
-      label: messages.columnSchoolApproved
     },
     {
       cellText: (item) => {

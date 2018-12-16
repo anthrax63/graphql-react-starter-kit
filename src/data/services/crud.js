@@ -175,7 +175,6 @@ export default class CrudService {
       request = request.sort(sort);
     }
     const result = await request.exec();
-    console.log(result[0]);
     return result;
   }
 
@@ -254,25 +253,4 @@ export default class CrudService {
     return {$and: [query, this._contextQuery]};
   }
 
-  setUserInfo(user) {
-    const {accessRoles, publisher, school, region} = user;
-    const isPublisher = accessRoles.indexOf('publisher') > -1;
-    const isStudent = accessRoles.indexOf('student') > -1;
-    const isSchoolAdmin = accessRoles.indexOf('schoolAdmin') > -1;
-    const isRegionAdmin = accessRoles.indexOf('regionAdmin') > -1;
-    const isGlobalAdmin = accessRoles.indexOf('globalAdmin') > -1 || accessRoles.indexOf('globalAdminAnopchenko') > -1;
-
-    isPublisher && check.assert.assigned(publisher, '"publisher" field is required!');
-    isSchoolAdmin && check.assert.assigned(school, '"school" field is required!');
-    isRegionAdmin && check.assert.assigned(region, '"region" field is required!');
-
-    this._user = {
-      ...user.toObject(),
-      isPublisher,
-      isStudent,
-      isSchoolAdmin,
-      isRegionAdmin,
-      isGlobalAdmin
-    };
-  }
 }

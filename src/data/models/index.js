@@ -4,10 +4,13 @@ import {linksPlugin} from '../helpers/mongooseSchemaLinks';
 
 import File from './File';
 import User from './User';
+import Notification from './Notification';
+
 
 const models = {
   File,
-  User
+  User,
+  Notification
 };
 
 Object.keys(models).forEach((modelName) => {

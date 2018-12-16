@@ -96,13 +96,6 @@ let renderComplete = (location, callback) => {
 
 function render(container, location, config, component) {
   return new Promise((resolve, reject) => {
-    if (process.env.NODE_ENV === 'development') {
-      console.log(// eslint-disable-line no-console
-        'React rendering. State:',
-        config.store.getState()
-      );
-    }
-
     try {
       ReactDOM.render(
         <Provide {...config}>

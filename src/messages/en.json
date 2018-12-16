@@ -38,7 +38,7 @@
   {
     "id": "home.welcome",
     "description": "Welcome message",
-    "defaultMessage": "Welcome to EOR!",
+    "defaultMessage": "Welcome to portal!",
     "message": "",
     "files": [
       "src/components/Home/Home.js"
@@ -47,7 +47,7 @@
   {
     "id": "core.appTitle",
     "description": "Main application title",
-    "defaultMessage": "Electronic educational resources of Moscow Region",
+    "defaultMessage": "Application",
     "message": "",
     "files": [
       "src/components/Layout/Layout.js"
@@ -532,8 +532,8 @@
   },
   {
     "id": "login.title",
-    "description": "Login to Portal of Electronic Education Resources",
-    "defaultMessage": "Login to Portal of Electronic Education Resources",
+    "description": "Login to the Application",
+    "defaultMessage": "Login to the Application",
     "message": "",
     "files": [
       "src/components/Login/Login.js"
@@ -762,15 +762,6 @@
     "message": "",
     "files": [
       "src/components/Login/Login.js"
-    ]
-  },
-  {
-    "id": "usersList.columnSchoolApproved",
-    "description": "Status",
-    "defaultMessage": "Status",
-    "message": "",
-    "files": [
-      "src/components/UsersList/UsersList.js"
     ]
   },
   {

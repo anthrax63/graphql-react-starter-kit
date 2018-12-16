@@ -4,7 +4,6 @@ import FlatButton from 'material-ui/FlatButton';
 import Dialog from 'material-ui/Dialog';
 import FileUploader from '../../components/FileUploader';
 import {defineMessages, injectIntl, intlShape} from 'react-intl';
-import Checkbox from 'material-ui/Checkbox';
 
 const messages = defineMessages({
   titleEdit: {
@@ -140,7 +139,7 @@ class UserEditor extends React.Component {
     const {intl: {formatMessage}, value} = this.props;
     const editMode = !!(value && value.id);
     const errors = {};
-    ['login', 'firstName', 'lastName', 'middleName', ...(!editMode ? ['password', 'passwordRepeat'] : [])].map((f) => {
+    ['login', 'firstName', 'lastName', ...(!editMode ? ['password', 'passwordRepeat'] : [])].map((f) => {
       if (values[f] === undefined) {
         errors[f] = formatMessage(messages.errorFieldIsRequired);
       }
@@ -204,14 +203,6 @@ class UserEditor extends React.Component {
     this.setValue('photo', file);
   };
 
-  handleActivatedChange = (e, value) => {
-    this.setValue('activated', value);
-  };
-
-  handleSchoolApprovedChange = (e, value) => {
-    this.setValue('schoolApproved', value);
-  };
-
   render() {
     const {
       intl: {formatMessage},
@@ -229,9 +220,7 @@ class UserEditor extends React.Component {
       handleFirstNameChange,
       handleLastNameChange,
       handleMiddleNameChange,
-      handleFileReady,
-      handleActivatedChange,
-      handleSchoolApprovedChange
+      handleFileReady
     } = this;
     return (
       <div>
@@ -256,39 +245,6 @@ class UserEditor extends React.Component {
           autoScrollBodyContent={true}
         >
           <div>
-            <div style={{marginTop: 24}}>
-              <Checkbox
-                label={formatMessage(messages.activated)}
-                checked={values.activated}
-                onCheck={handleActivatedChange}
-                disabled={values.type === 'mosreg'}
-              />
-            </div>
-            <div style={{marginBottom: 8}}>
-              <Checkbox
-                label={formatMessage(messages.schoolApproved)}
-                checked={values.schoolApproved}
-                onCheck={handleSchoolApprovedChange}
-                disabled={values.type === 'mosreg'}
-              />
-            </div>
-            <div>
-              <TextField
-                floatingLabelText={formatMessage(messages.userType)}
-                disabled={true}
-                value={values.type === 'mosreg' ? formatMessage(messages.userTypeMosreg) : formatMessage(messages.userTypeLocal)}
-              />
-            </div>
-            <div>
-              {
-                values.type === 'mosreg' ?
-                  <TextField
-                    floatingLabelText={formatMessage(messages.mosregId)}
-                    disabled={true}
-                    value={values.mosregId}
-                  /> : null
-              }
-            </div>
             <div>
               <TextField
                 floatingLabelText={formatMessage(messages.email)}

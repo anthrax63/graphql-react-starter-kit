@@ -14,6 +14,7 @@ function _getPasswordHash(password, salt) {
 }
 
 function _checkPasswordHash(password, salt, hash) {
+  log.debug('Check password hash', password, salt, hash);
   return new Buffer(hash, 'base64').compare(Crypto.pbkdf2Sync(password, salt, iterations, digestLen, algo)) === 0;
 }
 
@@ -34,15 +35,15 @@ class UserService extends CrudService {
         throw new UserAlreadyExistsError({login});
       }
     }
-    return super.create(this._checkRolesAndUpdatePassword(obj));
+    return super.create(this._updatePassword(obj));
   }
 
   replace(obj) {
-    return super.replace(this._checkRolesAndUpdatePassword(obj));
+    return super.replace(this._updatePassword(obj));
   }
 
   merge(obj) {
-    return super.merge(this._checkRolesAndUpdatePassword(obj));
+    return super.merge(this._updatePassword(obj));
   }
 
   /**
@@ -52,8 +53,9 @@ class UserService extends CrudService {
    * @return {Promise.<boolean|object>}
    */
   tryLogin({login, password}) {
+    log.debug('Try login', login, password);
     return this._model
-      .findOne({login, type: 'local', activated: true})
+      .findOne({login})
       .exec()
       .then((user) => {
         if (user) {
@@ -65,13 +67,22 @@ class UserService extends CrudService {
       });
   }
 
+  /**
+   * Registers new user
+   * @param {object} user
+   * @param {string} user.login
+   * @param {string} user.password
+   * @param {string} user.firstName
+   * @param {string} user.lastName
+   * @param {string} [user.middleName]
+   * @return {Promise<*>}
+   */
   async register(user) {
     log.debug('register user', user);
     check.assert.nonEmptyString(user.login, '"login" is required');
     check.assert.nonEmptyString(user.password, '"password" is required');
     check.assert.nonEmptyString(user.firstName, '"firstName" is required');
     check.assert.nonEmptyString(user.lastName, '"lastName" is required');
-    check.assert.nonEmptyString(user.middleName, '"middleName" is required');
     const result = await this.create({...user});
     const notificationService = new NotificationService();
     await notificationService.createUserActivationNotification(result._id);
@@ -106,50 +117,6 @@ class UserService extends CrudService {
     const password = _getPasswordHash(obj.password, passwordSalt);
     const newObj = {...obj, password, passwordSalt};
     return newObj;
-  }
-
-  _checkRolesAndUpdatePassword(obj) {
-    let result = {};
-    const accessRoles = obj.accessRoles || ['student'];
-    ['regionAdmin', 'schoolAdmin', 'publisher', 'student'].forEach((role) => {
-      let key = role.indexOf('Admin') > -1 ? role.slice(0, -5) : role;
-      key = (role === 'student' || role === 'teacher') ? 'school' : key;
-      const cond = key === 'school' ? ['student', 'teacher', 'schoolAdmin'].every((r) => accessRoles.indexOf(r) < 0) : accessRoles.indexOf(role) < 0;
-      if (cond) {
-        result[key] = null;
-      } else {
-        check.assert.assigned(obj[key], `Field "${key}" is required`);
-      }
-    });
-    const data = {...obj, ...result};
-    return this._updatePassword(data);
-  }
-
-  /**
-   * Lists list by query
-   * @param {object} query
-   * @param {number} skip
-   * @param {number} limit
-   * @param {object} sort
-   * @return {Promise.<object[]>}
-   */
-  list({query, skip, limit, sort}) {
-    const {isGlobalAdmin, isSchoolAdmin, school} = this._user || {};
-    if (school && isSchoolAdmin && !isGlobalAdmin) {
-      query = {...query, school};
-    }
-    return super.list({query, skip, limit, sort});
-  }
-
-  count(query) {
-    const {isGlobalAdmin, isSchoolAdmin, school} = this._user || {};
-    if (query.query) {
-      query = query.query;
-    }
-    if (school && isSchoolAdmin && !isGlobalAdmin) {
-      query = {...query, school};
-    }
-    return super.count(query);
   }
 }
 

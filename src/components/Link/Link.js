@@ -2,14 +2,6 @@ import React, {Component, PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {navigate} from '../../actions/route';
 
-function isLeftClickEvent(event) {
-  return event.button === 0;
-}
-
-function isModifiedEvent(event) {
-  return !!(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);
-}
-
 class Link extends Component {
   static propTypes = {
     to: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
@@ -17,38 +9,7 @@ class Link extends Component {
     children: PropTypes.node,
     navigate: PropTypes.func.isRequired,
     newTab: PropTypes.bool,
-    disabled: PropTypes.bool,
-    onClick: PropTypes.function
-  };
-
-
-  handleClick = (event) => {
-    let allowTransition = true;
-
-    if (this.props.onClick) {
-      this.props.onClick(event);
-    }
-
-    if (isModifiedEvent(event) || !isLeftClickEvent(event)) {
-      return;
-    }
-
-    if (event.defaultPrevented === true) {
-      allowTransition = false;
-    }
-
-    event.preventDefault();
-
-    if (allowTransition) {
-      if (this.props.to) {
-        this.props.navigate(this.props.to);
-      } else {
-        this.props.navigate({
-          pathname: event.currentTarget.pathname,
-          search: event.currentTarget.search
-        });
-      }
-    }
+    disabled: PropTypes.bool
   };
 
   render() {

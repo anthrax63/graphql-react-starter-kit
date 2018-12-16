@@ -11,9 +11,9 @@ import Layout from '../Layout';
 const getTheme = () => {
   let overwrites = {
     'palette': {
-      'primary1Color': '#306c84',
-      'primary2Color': '#00464c',
-      'pickerHeaderColor': '#306c84'
+      'primary1Color': '#003591',
+      'primary2Color': '#4d78ff',
+      'pickerHeaderColor': '#003591'
     }
   };
   return getMuiTheme(baseTheme, overwrites);

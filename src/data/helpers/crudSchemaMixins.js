@@ -145,7 +145,6 @@ export function queryMixin({type, auth}) {
           handleAuth(parent.request, auth, 'read');
         }
         let service = new CrudService();
-        if (service._modelName === 'User') service.setUserInfo(parent.request.userInfo);
         let mongooseArgs = {...await graphQLArgsToMongoose(fieldsForView, args, parent)};
         log.debug('mongooseArgs', mongooseArgs);
         let totalCount = await service.count(mongooseArgs);

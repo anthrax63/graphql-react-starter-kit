@@ -37,7 +37,7 @@ import {createToken} from './core/auth';
 import process from 'process';
 import {InternalServerError} from './constants/errors';
 import injectTapEventPlugin from 'react-tap-event-plugin';
-import {logError, logInfo, logDebug} from './helpers/log';
+import log, {logError, logInfo, logDebug} from './helpers/log';
 import UserService from './data/services/users';
 import mongoose from 'mongoose';
 mongoose.Promise = global.Promise;
@@ -51,7 +51,9 @@ import App from './components/App';
 import {IntlProvider} from 'react-intl';
 import {ErrorPageWithoutStyle} from './routes/error/ErrorPage';
 
+console.log('migrationsOnStart', migrationsOnStart);
 if (migrationsOnStart) {
+  log.info('Start migrations...');
   makeMigration(migrationsDirection);
 }
 
@@ -326,7 +328,7 @@ app.use((err, req, res, next) => { // eslint-disable-line no-unused-vars
   if (err.redirect) {
     return res.redirect(err.redirect);
   }
-  console.log(pe.render(err)); // eslint-disable-line no-console
+  logError(pe.render(err)); // eslint-disable-line no-console
   const locale = req.language;
   const statusCode = err.status || 500;
   const html = ReactDOM.renderToStaticMarkup(

@@ -1,4 +1,5 @@
 import {inspect} from 'util';
+import log from '../../helpers/log';
 
 // Server side redux action logger
 export default function createLogger() {
@@ -6,7 +7,7 @@ export default function createLogger() {
     const formattedPayload = inspect(action.payload, {
       colors: true
     });
-    console.log(` * ${action.type}: ${formattedPayload}`); // eslint-disable-line no-console
+    log.debug(` * ${action.type}: ${formattedPayload}`); // eslint-disable-line no-console
     return next(action);
   };
 }

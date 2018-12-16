@@ -2,9 +2,9 @@ import {
   createSaveAction,
   createQueryAction,
   createRemoveAction,
-  createGetAction,
-  createSearchAction
+  createGetAction
 } from '../../helpers/actionBuilders';
+
 const actionPrefix = 'USERS_LIST';
 
 
@@ -22,33 +22,8 @@ export const ActionTypes = {
       success: `${actionPrefix}_EDITOR_SAVE_SUCCESS`,
       error: `${actionPrefix}_EDITOR_SAVE_ERROR`
     },
-    search: {
-      schools: {
-        start: `${actionPrefix}_EDITOR_SEARCH_SCHOOLS_START`,
-        success: `${actionPrefix}_EDITOR_SEARCH_SCHOOLS_SUCCESS`,
-        error: `${actionPrefix}_EDITOR_SEARCH_SCHOOLS_ERROR`
-      },
-      localities: {
-        start: `${actionPrefix}_EDITOR_SEARCH_LOCALITIES_START`,
-        success: `${actionPrefix}_EDITOR_SEARCH_LOCALITIES_SUCCESS`,
-        error: `${actionPrefix}_EDITOR_SEARCH_LOCALITIES_ERROR`
-      },
-      publishers: {
-        start: `${actionPrefix}_EDITOR_SEARCH_PUBLISHERS_START`,
-        success: `${actionPrefix}_EDITOR_SEARCH_PUBLISHERS_SUCCESS`,
-        error: `${actionPrefix}_EDITOR_SEARCH_PUBLISHERS_ERROR`
-      },
-      regions: {
-        start: `${actionPrefix}_EDITOR_SEARCH_REGIONS_START`,
-        success: `${actionPrefix}_EDITOR_SEARCH_REGIONS_SUCCESS`,
-        error: `${actionPrefix}_EDITOR_SEARCH_REGIONS_ERROR`
-      }
-    },
-    clear: {
-      schools: `${actionPrefix}_CLEAR_SCHOOLS`,
-      publishers: `${actionPrefix}_CLEAR_PUBLISHERS`,
-      regions: `${actionPrefix}_CLEAR_REGIONS`
-    }
+    clear: {},
+    search: {}
   },
   updateQuery: `${actionPrefix}_UPDATE_QUERY`,
   fetch: {
@@ -72,7 +47,6 @@ export const fetch = createQueryAction(
     'login',
     'firstName',
     'lastName',
-    'schoolApproved',
     {photo: ['link', 'ready']}
   ]
 );
@@ -86,15 +60,7 @@ export const save = createSaveAction(
     firstName: 'String!',
     lastName: 'String!',
     middleName: 'String!',
-    photoId: 'ID',
-    accessRoles: '[String]',
-    schoolId: 'ID',
-    publisherId: 'ID',
-    regionId: 'ID',
-    grade: 'String',
-    position: 'String',
-    activated: 'Boolean!',
-    schoolApproved: 'Boolean!'
+    photoId: 'ID'
   },
   [
     'id'
@@ -129,71 +95,6 @@ export const editorEdit = createGetAction(
     'firstName',
     'lastName',
     'middleName',
-    {photo: ['id', 'name', 'link', 'ready']},
-    'type',
-    'accessRoles',
-    'grade',
-    'position',
-    {school: ['id', 'name', {locality: ['id', 'name', {region: ['name']}]}]},
-    {publisher: ['id', 'name', 'description', 'adress', 'phone', 'support']},
-    {region: ['name']},
-    'mosregId',
-    'type',
-    'activated',
-    'schoolApproved'
+    {photo: ['id', 'name', 'link', 'ready']}
   ]
 );
-
-export const searchSchoolsByLocality = createSearchAction(
-  'School',
-  ActionTypes.editor.search.schools,
-  [
-    'id',
-    'name',
-    {locality: ['id', 'name', {region: ['name']}]}
-  ]
-);
-
-
-export const searchLocalities = createSearchAction(
-  'Locality',
-  ActionTypes.editor.search.localities,
-  [
-    'id',
-    'name',
-    {region: ['name']}
-  ]
-);
-
-export const clearFoundSchools = () => {
-  return (dispatch) => {
-    dispatch({type: ActionTypes.editor.clear.schools});
-  };
-};
-
-export const searchPublisher = createSearchAction(
-  'Publisher',
-  ActionTypes.editor.search.publishers,
-  [
-    'id',
-    'name'
-  ]
-);
-
-export const clearFoundPublishers = () => {
-  return (dispatch) => {
-    dispatch({type: ActionTypes.editor.clear.publishers});
-  };
-};
-
-export const searchRegions = createSearchAction(
-  'Region',
-  ActionTypes.editor.search.regions,
-  ['id', 'name']
-);
-
-export const clearFoundRegions = () => {
-  return (dispatch) => {
-    dispatch({type: ActionTypes.editor.clear.regions});
-  };
-};

@@ -60,7 +60,6 @@ export function logout() {
     dispatch({type: LOGOUT_START, payload: {}});
     // Set cookie
     if (document && document.cookie) {
-      console.log('Clear session cookie');
       document.cookie = 'id_token=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
     }
     dispatch({type: LOGOUT_SUCCESS, payload: {}});
