@@ -1,0 +1,32 @@
+@import '../../components/variables.css';
+
+.container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.button {
+  margin-right: 10px;
+}
+
+.dotDivider {
+  margin-right: 10px;
+}
+
+.emptyDivider {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.label {
+  width: 180px;
+  margin-top: 15px;
+}
+
+.buttons {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+}

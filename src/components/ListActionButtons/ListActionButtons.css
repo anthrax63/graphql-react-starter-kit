@@ -1,0 +1,23 @@
+@import '../../components/variables.css';
+
+.buttonsPanel {
+  position: fixed;
+  right: 10px;
+  bottom: 5px;
+}
+
+.button {
+  margin: -8px;
+}
+
+.buttonContainer {
+  display: inline-block;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.activeButtonContainer {
+  display: inline-block;
+  opacity: 1;
+  transition: opacity 0.3s;
+}

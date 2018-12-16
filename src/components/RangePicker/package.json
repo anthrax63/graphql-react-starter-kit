@@ -1,0 +1,6 @@
+{
+  "name": "RangePicker",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./RangePicker.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "HelpLinkText",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./HelpLinkText.js"
+}

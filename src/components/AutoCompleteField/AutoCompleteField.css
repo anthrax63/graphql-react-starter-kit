@@ -1,0 +1,42 @@
+.container {
+  display: block;
+}
+
+.inputContainer {
+}
+
+.overlayContainer {
+  position: absolute;
+  top: 7px;
+}
+
+.overlayVisible {
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+  transition: visibility 0s, opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, left 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.overlayInvisible {
+  visibility: hidden;
+  opacity: 0;
+  left: -42px;
+  transition: visibility 450ms, opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, left 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.autoCompleteContainer {
+  top: 0;
+  left: 0;
+}
+
+.autoCompleteVisible {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.autoCompleteInvisible {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 450ms, opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}

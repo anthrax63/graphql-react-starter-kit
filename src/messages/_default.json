@@ -1,0 +1,785 @@
+[
+  {
+    "id": "messages.invalidLoginOrPassword",
+    "description": "Message that showing while user tries to login with invalid credentials",
+    "defaultMessage": "Invalid e-mail or password",
+    "message": "",
+    "files": [
+      "src/actions/login.js"
+    ]
+  },
+  {
+    "id": "cleanableDatePicker.cancelLabel",
+    "description": "CleanableDatePicker cancel button label",
+    "defaultMessage": "Cancel",
+    "message": "",
+    "files": [
+      "src/components/CleanableDatePicker/CleanableDatePicker.js"
+    ]
+  },
+  {
+    "id": "fileUploader.dropLabel",
+    "description": "File uploader drop zone label",
+    "defaultMessage": "Drop file here or click to open file using dialog",
+    "message": "",
+    "files": [
+      "src/components/FileUploader/FileUploader.js"
+    ]
+  },
+  {
+    "id": "home.instruction",
+    "description": "Instruction message",
+    "defaultMessage": "Use left menu for navigation",
+    "message": "",
+    "files": [
+      "src/components/Home/Home.js"
+    ]
+  },
+  {
+    "id": "home.welcome",
+    "description": "Welcome message",
+    "defaultMessage": "Welcome to EOR!",
+    "message": "",
+    "files": [
+      "src/components/Home/Home.js"
+    ]
+  },
+  {
+    "id": "core.appTitle",
+    "description": "Main application title",
+    "defaultMessage": "Electronic educational resources of Moscow Region",
+    "message": "",
+    "files": [
+      "src/components/Layout/Layout.js"
+    ]
+  },
+  {
+    "id": "dateRangePicker.hintFrom",
+    "description": "Hint text of from field",
+    "defaultMessage": "From",
+    "message": "",
+    "files": [
+      "src/components/DateRangePicker/DateRangePicker.js"
+    ]
+  },
+  {
+    "id": "dateRangePicker.hintTo",
+    "description": "Hint text of to field",
+    "defaultMessage": "To",
+    "message": "",
+    "files": [
+      "src/components/DateRangePicker/DateRangePicker.js"
+    ]
+  },
+  {
+    "id": "login.buttonLabel",
+    "description": "Log in button label",
+    "defaultMessage": "Log In",
+    "message": "",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.emailHint",
+    "description": "E-Mail label hint",
+    "defaultMessage": "login@test.com",
+    "message": "",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.emailLabel",
+    "description": "E-Mail label",
+    "defaultMessage": "E-mail:",
+    "message": "",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.emailValidationError",
+    "description": "E-mail validation message",
+    "defaultMessage": "Invalid e-mail",
+    "message": "",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.fieldIsRequired",
+    "description": "Field is required",
+    "defaultMessage": "Field is required",
+    "message": "",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.invalidLoginOrPasswordError",
+    "description": "Invalid login or password",
+    "defaultMessage": "Invalid login or password",
+    "message": "",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.message",
+    "description": "Log in message",
+    "defaultMessage": "Log in with your email and password",
+    "message": "",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.passwordHint",
+    "description": "Password label hint",
+    "defaultMessage": "Password",
+    "message": "",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.passwordLabel",
+    "description": "Password label",
+    "defaultMessage": "Password:",
+    "message": "",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "mainmenu.dashboard",
+    "description": "Dashboard menu item",
+    "defaultMessage": "Dashboard",
+    "message": "",
+    "files": [
+      "src/components/MainMenu/MainMenu.js"
+    ]
+  },
+  {
+    "id": "mainmenu.users",
+    "description": "Users menu item",
+    "defaultMessage": "Users",
+    "message": "",
+    "files": [
+      "src/components/MainMenu/MainMenu.js"
+    ]
+  },
+  {
+    "id": "filterPanel.buttonApply",
+    "description": "Apply button text",
+    "defaultMessage": "Apply",
+    "message": "",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.buttonReset",
+    "description": "Reset button text",
+    "defaultMessage": "Reset",
+    "message": "",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.dateRangeFrom",
+    "description": "\"From\" label of date range",
+    "defaultMessage": "from",
+    "message": "",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.dateRangeTo",
+    "description": "\"To\" label of date range",
+    "defaultMessage": "to",
+    "message": "",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.label",
+    "description": "Filter label",
+    "defaultMessage": "Filter",
+    "message": "",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.minusInfinity",
+    "description": "Minus infinity query text",
+    "defaultMessage": "Minus infinity",
+    "message": "",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.noFilter",
+    "description": "No filter is applied",
+    "defaultMessage": "No filter is applied",
+    "message": "",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.plusInfinity",
+    "description": "Plus infinity query text",
+    "defaultMessage": "Plus infinity",
+    "message": "",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.stringQueryAnd",
+    "description": "Operator name in the stringified query",
+    "defaultMessage": "AND",
+    "message": "",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.stringQueryContains",
+    "description": "Operator name in the stringified query",
+    "defaultMessage": "CONTAINS",
+    "message": "",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.stringQueryIn",
+    "description": "Operator name in the stringified query",
+    "defaultMessage": "IN",
+    "message": "",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.stringQueryInRange",
+    "description": "Operator name in the stringified query",
+    "defaultMessage": "IN RANGE",
+    "message": "",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "userinfo.signout",
+    "description": "Sign out button label",
+    "defaultMessage": "Sign out",
+    "message": "",
+    "files": [
+      "src/components/UserInfo/UserInfo.js"
+    ]
+  },
+  {
+    "id": "usersList.columnEmail",
+    "description": "E-mail",
+    "defaultMessage": "E-mail",
+    "message": "",
+    "files": [
+      "src/components/UsersList/UsersList.js"
+    ]
+  },
+  {
+    "id": "usersList.columnFirstName",
+    "description": "First Name",
+    "defaultMessage": "First Name",
+    "message": "",
+    "files": [
+      "src/components/UsersList/UsersList.js"
+    ]
+  },
+  {
+    "id": "usersList.columnLastName",
+    "description": "Last Name",
+    "defaultMessage": "Last Name",
+    "message": "",
+    "files": [
+      "src/components/UsersList/UsersList.js"
+    ]
+  },
+  {
+    "id": "usersList.columnPhoto",
+    "description": "Photo",
+    "defaultMessage": "Photo",
+    "message": "",
+    "files": [
+      "src/components/UsersList/UsersList.js"
+    ]
+  },
+  {
+    "id": "errors.authorizationError",
+    "description": "Authorization error",
+    "defaultMessage": "Authorization error",
+    "message": "",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "errors.internalServerError",
+    "description": "Internal server error",
+    "defaultMessage": "Internal server error",
+    "message": "",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "errors.invalidLoginOrPasswordError",
+    "description": "Invalid login or password",
+    "defaultMessage": "Invalid login or password",
+    "message": "",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "errors.notFoundError",
+    "description": "Not found error",
+    "defaultMessage": "Requested item not found",
+    "message": "",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "errors.unknownError",
+    "description": "An unknown error has occurred",
+    "defaultMessage": "An unknown error has occurred",
+    "message": "",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "errors.validationError",
+    "description": "Validation error",
+    "defaultMessage": "Validation error",
+    "message": "",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "errorPage.content",
+    "description": "Error page content",
+    "defaultMessage": "Sorry, a critical error occurred on this page. We are working hard to fix it.",
+    "message": "",
+    "files": [
+      "src/routes/error/ErrorPage.js"
+    ]
+  },
+  {
+    "id": "errorPage.contentPageNotFound",
+    "description": "Error page content if page not found",
+    "defaultMessage": "Sorry, the page you were trying to view does not exist.",
+    "message": "",
+    "files": [
+      "src/routes/error/ErrorPage.js"
+    ]
+  },
+  {
+    "id": "errorPage.title",
+    "description": "Error page title",
+    "defaultMessage": "Error",
+    "message": "",
+    "files": [
+      "src/routes/error/ErrorPage.js"
+    ]
+  },
+  {
+    "id": "errorPage.titlePageNotFound",
+    "description": "Error page title if page not found",
+    "defaultMessage": "Page not found",
+    "message": "",
+    "files": [
+      "src/routes/error/ErrorPage.js"
+    ]
+  },
+  {
+    "id": "routes.error.title",
+    "description": "Error page title",
+    "defaultMessage": "Error",
+    "message": "",
+    "files": [
+      "src/routes/error/index.js"
+    ]
+  },
+  {
+    "id": "routes.home.title",
+    "description": "Home title",
+    "defaultMessage": "Home",
+    "message": "",
+    "files": [
+      "src/routes/home/index.js"
+    ]
+  },
+  {
+    "id": "routes.login.title",
+    "description": "Login title",
+    "defaultMessage": "Login",
+    "message": "",
+    "files": [
+      "src/routes/login/index.js"
+    ]
+  },
+  {
+    "id": "routes.users.title",
+    "description": "Users title",
+    "defaultMessage": "Users",
+    "message": "",
+    "files": [
+      "src/routes/users/index.js"
+    ]
+  },
+  {
+    "id": "listEditor.notDefined",
+    "description": "Not defined",
+    "defaultMessage": "Not defined",
+    "message": "",
+    "files": [
+      "src/components/CommonListEditor/CommonListEditor.js"
+    ]
+  },
+  {
+    "id": "rangePicker.labelFrom",
+    "description": "Hint text of from field",
+    "defaultMessage": "From",
+    "message": "",
+    "files": [
+      "src/components/RangePicker/RangePicker.js"
+    ]
+  },
+  {
+    "id": "rangePicker.labelTo",
+    "description": "Hint text of to field",
+    "defaultMessage": "To",
+    "message": "",
+    "files": [
+      "src/components/RangePicker/RangePicker.js"
+    ]
+  },
+  {
+    "id": "errors.accessViolationError",
+    "description": "Access violation error",
+    "defaultMessage": "Access violation",
+    "message": "",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "errors.notEnoughBalance",
+    "description": "Not enough balance",
+    "defaultMessage": "Not enough balance",
+    "message": "",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "errors.userAlreadyExists",
+    "description": "User already exists",
+    "defaultMessage": "User already exists",
+    "message": "",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "login.haveNoAccountQuestion",
+    "description": "Have no account?",
+    "defaultMessage": "Have no account?",
+    "message": "",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "autoCompleteField.startEnterToSearch",
+    "description": "Start enter to search",
+    "defaultMessage": "Start enter to search...",
+    "message": "",
+    "files": [
+      "src/components/AutoCompleteField/AutoCompleteField.js"
+    ]
+  },
+  {
+    "id": "listEditor.chooseFromTheList",
+    "description": "Choose from the list...",
+    "defaultMessage": "Choose from the list...",
+    "message": "",
+    "files": [
+      "src/components/CommonListEditor/CommonListEditor.js"
+    ]
+  },
+  {
+    "id": "login.title",
+    "description": "Login to Portal of Electronic Education Resources",
+    "defaultMessage": "Login to Portal of Electronic Education Resources",
+    "message": "",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "filterPanel.stringQueryEquals",
+    "description": "Operator name in the stringified query",
+    "defaultMessage": "=",
+    "message": "",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "usersList.filterLabelEmail",
+    "description": "E-mail",
+    "defaultMessage": "E-mail",
+    "message": "",
+    "files": [
+      "src/components/UsersList/UsersList.js"
+    ]
+  },
+  {
+    "id": "usersList.filterLabelFirstName",
+    "description": "First Name",
+    "defaultMessage": "First Name",
+    "message": "",
+    "files": [
+      "src/components/UsersList/UsersList.js"
+    ]
+  },
+  {
+    "id": "usersList.filterLabelLastName",
+    "description": "Last Name",
+    "defaultMessage": "Last Name",
+    "message": "",
+    "files": [
+      "src/components/UsersList/UsersList.js"
+    ]
+  },
+  {
+    "id": "helpLinkText.linkText",
+    "description": "Help link text",
+    "defaultMessage": "Help",
+    "message": "",
+    "files": [
+      "src/components/HelpLinkText/HelpLinkText.js"
+    ]
+  },
+  {
+    "id": "userEditor.cancelButton",
+    "description": "Cancel button",
+    "defaultMessage": "Cancel",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.email",
+    "description": "E-mail",
+    "defaultMessage": "E-mail",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.emailHint",
+    "description": "User e-mail hint text",
+    "defaultMessage": "test@test.com",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.errorEmailAlreadyExists",
+    "description": "Error message showing when existent e-mail written",
+    "defaultMessage": "User with this e-mail already exists",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.errorFieldIsRequired",
+    "description": "Field is required",
+    "defaultMessage": "Field is required",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.errorPasswordsNotMatch",
+    "description": "Passwords don't match",
+    "defaultMessage": "Passwords don't match",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.firstName",
+    "description": "User editor first name input label",
+    "defaultMessage": "First Name",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.firstNameHint",
+    "description": "User editor first name input hint",
+    "defaultMessage": "John",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.lastName",
+    "description": "User last name",
+    "defaultMessage": "Last Name",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.lastNameHint",
+    "description": "User editor last name input hint",
+    "defaultMessage": "Smith",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.middleName",
+    "description": "User editor first name input label",
+    "defaultMessage": "Middle Name",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.middleNameHint",
+    "description": "User editor first name input hint",
+    "defaultMessage": "Van",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.password",
+    "description": "Password",
+    "defaultMessage": "Password",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.passwordRepeat",
+    "description": "Repeat password",
+    "defaultMessage": "Repeat password",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.photo",
+    "description": "Photo",
+    "defaultMessage": "Photo",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.saveButton",
+    "description": "Save button",
+    "defaultMessage": "Save",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.titleAdd",
+    "description": "User editor dialog title",
+    "defaultMessage": "Add User",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.titleEdit",
+    "description": "User editor dialog title",
+    "defaultMessage": "Edit User",
+    "message": "",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "login.dialogTitle",
+    "description": "Account activation information",
+    "defaultMessage": "Account activation information",
+    "message": "",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.dialogText",
+    "description": "Please check your e-mail. Follow the link in the email message to activate your account.",
+    "defaultMessage": "Please check your e-mail. Follow instructions in the email message to activate your account.",
+    "message": "",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "usersList.columnSchoolApproved",
+    "description": "Status",
+    "defaultMessage": "Status",
+    "message": "",
+    "files": [
+      "src/components/UsersList/UsersList.js"
+    ]
+  },
+  {
+    "id": "goBackBtn.label",
+    "description": "Go Back Button",
+    "defaultMessage": "Go Back",
+    "message": "",
+    "files": [
+      "src/components/GoBackButton/GoBackButton.js"
+    ]
+  }
+]

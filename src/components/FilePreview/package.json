@@ -1,0 +1,6 @@
+{
+  "name": "FilePreview",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./FilePreview.js"
+}

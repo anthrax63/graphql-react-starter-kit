@@ -1,0 +1,8 @@
+.chipInput {
+
+}
+
+.chipInput > div > div > div {
+  display: flex;
+  flex-wrap: wrap;
+}

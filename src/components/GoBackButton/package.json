@@ -1,0 +1,6 @@
+{
+  "name": "GoBackButton",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./GoBackButton.js"
+}

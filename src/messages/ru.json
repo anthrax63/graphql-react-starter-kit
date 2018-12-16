@@ -1,0 +1,4085 @@
+[
+  {
+    "id": "messages.invalidLoginOrPassword",
+    "description": "Message that showing while user tries to login with invalid credentials",
+    "defaultMessage": "Invalid e-mail or password",
+    "message": "Неправильный e-mail или пароль",
+    "files": [
+      "src/actions/login.js"
+    ]
+  },
+  {
+    "id": "cleanableDatePicker.cancelLabel",
+    "description": "CleanableDatePicker cancel button label",
+    "defaultMessage": "Cancel",
+    "message": "Отмена",
+    "files": [
+      "src/components/CleanableDatePicker/CleanableDatePicker.js"
+    ]
+  },
+  {
+    "id": "fileUploader.dropLabel",
+    "description": "File uploader drop zone label",
+    "defaultMessage": "Drop file here or click to open file using dialog",
+    "message": "Перетащите файл сюда или кликните для открытия окна выбора файлов",
+    "files": [
+      "src/components/FileUploader/FileUploader.js"
+    ]
+  },
+  {
+    "id": "home.instruction",
+    "description": "Instruction message",
+    "defaultMessage": "Use left menu for navigation",
+    "message": "Используйте меню слева для навигации",
+    "files": [
+      "src/components/Home/Home.js"
+    ]
+  },
+  {
+    "id": "home.welcome",
+    "description": "Welcome message",
+    "defaultMessage": "Welcome to EOR!",
+    "message": "Добро пожаловать на портал Электронных образовательных ресурсов Московской области",
+    "files": [
+      "src/components/Home/Home.js"
+    ]
+  },
+  {
+    "id": "core.appTitle",
+    "description": "Main application title",
+    "defaultMessage": "Electronic educational resources of Moscow Region",
+    "message": "Электронные образовательные ресурсы Московской области",
+    "files": [
+      "src/components/Layout/Layout.js"
+    ]
+  },
+  {
+    "id": "dateRangePicker.hintFrom",
+    "description": "Hint text of from field",
+    "defaultMessage": "From",
+    "message": "С",
+    "files": [
+      "src/components/DateRangePicker/DateRangePicker.js"
+    ]
+  },
+  {
+    "id": "dateRangePicker.hintTo",
+    "description": "Hint text of to field",
+    "defaultMessage": "To",
+    "message": "По",
+    "files": [
+      "src/components/DateRangePicker/DateRangePicker.js"
+    ]
+  },
+  {
+    "id": "login.buttonLabel",
+    "description": "Log in button label",
+    "defaultMessage": "Log In",
+    "message": "Вход",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.emailHint",
+    "description": "E-Mail label hint",
+    "defaultMessage": "login@test.com",
+    "message": "login@test.com",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.emailLabel",
+    "description": "E-Mail label",
+    "defaultMessage": "E-mail:",
+    "message": "E-mail",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.emailValidationError",
+    "description": "E-mail validation message",
+    "defaultMessage": "Invalid e-mail",
+    "message": "Неправильный e-mail",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.fieldIsRequired",
+    "description": "Field is required",
+    "defaultMessage": "Field is required",
+    "message": "Поле обязательно для заполнения",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.invalidLoginOrPasswordError",
+    "description": "Invalid login or password",
+    "defaultMessage": "Invalid login or password",
+    "message": "Неправильный логин или пароль",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.message",
+    "description": "Log in message",
+    "defaultMessage": "Log in with your email and password",
+    "message": "Войдите с помощью e-mail и пароля",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.passwordHint",
+    "description": "Password label hint",
+    "defaultMessage": "Password",
+    "message": "Пароль",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.passwordLabel",
+    "description": "Password label",
+    "defaultMessage": "Password:",
+    "message": "Пароль:",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "mainmenu.dashboard",
+    "description": "Dashboard menu item",
+    "defaultMessage": "Dashboard",
+    "message": "Главная",
+    "files": [
+      "src/components/MainMenu/MainMenu.js"
+    ]
+  },
+  {
+    "id": "mainmenu.regions",
+    "description": "Regions menu item",
+    "defaultMessage": "Regions",
+    "message": "Районы"
+  },
+  {
+    "id": "mainmenu.users",
+    "description": "Users menu item",
+    "defaultMessage": "Users",
+    "message": "Пользователи",
+    "files": [
+      "src/components/MainMenu/MainMenu.js"
+    ]
+  },
+  {
+    "id": "filterPanel.buttonApply",
+    "description": "Apply button text",
+    "defaultMessage": "Apply",
+    "message": "Применить",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.buttonReset",
+    "description": "Reset button text",
+    "defaultMessage": "Reset",
+    "message": "Сбросить",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.dateRangeFrom",
+    "description": "\"From\" label of date range",
+    "defaultMessage": "from",
+    "message": "с",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.dateRangeTo",
+    "description": "\"To\" label of date range",
+    "defaultMessage": "to",
+    "message": "по",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.label",
+    "description": "Filter label",
+    "defaultMessage": "Filter",
+    "message": "Фильтр",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.minusInfinity",
+    "description": "Minus infinity query text",
+    "defaultMessage": "Minus infinity",
+    "message": "Минус бесконечность",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.noFilter",
+    "description": "No filter is applied",
+    "defaultMessage": "No filter is applied",
+    "message": "Фильтры не применены",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.plusInfinity",
+    "description": "Plus infinity query text",
+    "defaultMessage": "Plus infinity",
+    "message": "Бесконечность",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.stringQueryAnd",
+    "description": "Operator name in the stringified query",
+    "defaultMessage": "AND",
+    "message": "И",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.stringQueryContains",
+    "description": "Operator name in the stringified query",
+    "defaultMessage": "CONTAINS",
+    "message": "СОДЕРЖИТ",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.stringQueryIn",
+    "description": "Operator name in the stringified query",
+    "defaultMessage": "IN",
+    "message": "В",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "filterPanel.stringQueryInRange",
+    "description": "Operator name in the stringified query",
+    "defaultMessage": "IN RANGE",
+    "message": "В ДИАПАЗОНЕ",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "regionEditor.cancelButton",
+    "description": "Cancel button",
+    "defaultMessage": "Cancel",
+    "message": "Отмена"
+  },
+  {
+    "id": "regionEditor.errorFieldIsRequired",
+    "description": "Field is required",
+    "defaultMessage": "Field is required",
+    "message": "Поле обязательно для заполнения"
+  },
+  {
+    "id": "regionEditor.name",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "regionEditor.nameHint",
+    "description": "Region name hint text",
+    "defaultMessage": "Region name",
+    "message": "Название района"
+  },
+  {
+    "id": "regionEditor.saveButton",
+    "description": "Save button",
+    "defaultMessage": "Save",
+    "message": "Сохранить"
+  },
+  {
+    "id": "regionEditor.titleAdd",
+    "description": "Region editor dialog title",
+    "defaultMessage": "Add Region",
+    "message": "Добавить район"
+  },
+  {
+    "id": "regionEditor.titleEdit",
+    "description": "Region editor dialog title",
+    "defaultMessage": "Edit Region",
+    "message": "Редактировать район"
+  },
+  {
+    "id": "regionsList.columnName",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "userEditor.cancelButton",
+    "description": "Cancel button",
+    "defaultMessage": "Cancel",
+    "message": "Отмена",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.email",
+    "description": "E-mail",
+    "defaultMessage": "E-mail",
+    "message": "E-mail",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.emailHint",
+    "description": "User e-mail hint text",
+    "defaultMessage": "test@test.com",
+    "message": "test@test.com",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.errorEmailAlreadyExists",
+    "description": "Error message showing when existent e-mail written",
+    "defaultMessage": "User with this e-mail already exists",
+    "message": "Пользователь с таким e-mail уже существует",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.errorFieldIsRequired",
+    "description": "Field is required",
+    "defaultMessage": "Field is required",
+    "message": "Поле обязательно для заполнения",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.errorPasswordsNotMatch",
+    "description": "Passwords don't match",
+    "defaultMessage": "Passwords don't match",
+    "message": "Пароли не совпадают",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.firstName",
+    "description": "User editor first name input label",
+    "defaultMessage": "First Name",
+    "message": "Имя",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.firstNameHint",
+    "description": "User editor first name input hint",
+    "defaultMessage": "John",
+    "message": "Иван",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.lastName",
+    "description": "User last name",
+    "defaultMessage": "Last Name",
+    "message": "Фамилия",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.lastNameHint",
+    "description": "User editor last name input hint",
+    "defaultMessage": "Smith",
+    "message": "Петров",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.password",
+    "description": "Password",
+    "defaultMessage": "Password",
+    "message": "Пароль",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.passwordRepeat",
+    "description": "Repeat password",
+    "defaultMessage": "Repeat password",
+    "message": "Повторите пароль",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.photo",
+    "description": "Photo",
+    "defaultMessage": "Photo",
+    "message": "Фото",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.saveButton",
+    "description": "Save button",
+    "defaultMessage": "Save",
+    "message": "Сохранить",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.titleAdd",
+    "description": "User editor dialog title",
+    "defaultMessage": "Add User",
+    "message": "Добавить пользователя",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.titleEdit",
+    "description": "User editor dialog title",
+    "defaultMessage": "Edit User",
+    "message": "Редактировать пользователя",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userinfo.signout",
+    "description": "Sign out button label",
+    "defaultMessage": "Sign out",
+    "message": "Выход",
+    "files": [
+      "src/components/UserInfo/UserInfo.js"
+    ]
+  },
+  {
+    "id": "usersList.columnEmail",
+    "description": "E-mail",
+    "defaultMessage": "E-mail",
+    "message": "E-mail",
+    "files": [
+      "src/components/UsersList/UsersList.js"
+    ]
+  },
+  {
+    "id": "usersList.columnFirstName",
+    "description": "First Name",
+    "defaultMessage": "First Name",
+    "message": "Имя",
+    "files": [
+      "src/components/UsersList/UsersList.js"
+    ]
+  },
+  {
+    "id": "usersList.columnLastName",
+    "description": "Last Name",
+    "defaultMessage": "Last Name",
+    "message": "Фамилия",
+    "files": [
+      "src/components/UsersList/UsersList.js"
+    ]
+  },
+  {
+    "id": "usersList.columnPhoto",
+    "description": "Photo",
+    "defaultMessage": "Photo",
+    "message": "Фото",
+    "files": [
+      "src/components/UsersList/UsersList.js"
+    ]
+  },
+  {
+    "id": "errors.authorizationError",
+    "description": "Authorization error",
+    "defaultMessage": "Authorization error",
+    "message": "Ошибка авторизации",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "errors.internalServerError",
+    "description": "Internal server error",
+    "defaultMessage": "Internal server error",
+    "message": "Внутренняя ошибка сервера",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "errors.invalidLoginOrPasswordError",
+    "description": "Invalid login or password",
+    "defaultMessage": "Invalid login or password",
+    "message": "Неправильный e-mail или пароль",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "errors.notFoundError",
+    "description": "Not found error",
+    "defaultMessage": "Requested item not found",
+    "message": "Запрошенный элемент не найден",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "errors.unknownError",
+    "description": "An unknown error has occurred",
+    "defaultMessage": "An unknown error has occurred",
+    "message": "Произошла неизвестная ошибка",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "errors.validationError",
+    "description": "Validation error",
+    "defaultMessage": "Validation error",
+    "message": "Ошибка варидации",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "errorPage.content",
+    "description": "Error page content",
+    "defaultMessage": "Sorry, a critical error occurred on this page. We are working hard to fix it.",
+    "message": "На данной странице произошла ошибка. Команда разработки уже занимается исправлением.",
+    "files": [
+      "src/routes/error/ErrorPage.js"
+    ]
+  },
+  {
+    "id": "errorPage.contentPageNotFound",
+    "description": "Error page content if page not found",
+    "defaultMessage": "Sorry, the page you were trying to view does not exist.",
+    "message": "Сожалеем, но данной страницы не существует или у вас отсутствует доступ.",
+    "files": [
+      "src/routes/error/ErrorPage.js"
+    ]
+  },
+  {
+    "id": "errorPage.title",
+    "description": "Error page title",
+    "defaultMessage": "Error",
+    "message": "Ошибка",
+    "files": [
+      "src/routes/error/ErrorPage.js"
+    ]
+  },
+  {
+    "id": "errorPage.titlePageNotFound",
+    "description": "Error page title if page not found",
+    "defaultMessage": "Page not found",
+    "message": "Страница не найдена",
+    "files": [
+      "src/routes/error/ErrorPage.js"
+    ]
+  },
+  {
+    "id": "routes.error.title",
+    "description": "Error page title",
+    "defaultMessage": "Error",
+    "message": "Ошибка",
+    "files": [
+      "src/routes/error/index.js"
+    ]
+  },
+  {
+    "id": "routes.home.title",
+    "description": "Home title",
+    "defaultMessage": "Home",
+    "message": "Главная",
+    "files": [
+      "src/routes/home/index.js"
+    ]
+  },
+  {
+    "id": "routes.regions.title",
+    "description": "Regions title",
+    "defaultMessage": "Regions",
+    "message": "Районы"
+  },
+  {
+    "id": "routes.login.title",
+    "description": "Login title",
+    "defaultMessage": "Login",
+    "message": "Вход",
+    "files": [
+      "src/routes/login/index.js"
+    ]
+  },
+  {
+    "id": "routes.users.title",
+    "description": "Users title",
+    "defaultMessage": "Users",
+    "message": "Пользователи",
+    "files": [
+      "src/routes/users/index.js"
+    ]
+  },
+  {
+    "id": "localityList.columnName",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "localityList.columnRegion",
+    "description": "Region",
+    "defaultMessage": "Region",
+    "message": "Район"
+  },
+  {
+    "id": "mainmenu.localities",
+    "description": "Localities menu item",
+    "defaultMessage": "Localities",
+    "message": "Населенные пункты"
+  },
+  {
+    "id": "routes.localities.title",
+    "description": "Localities title",
+    "defaultMessage": "Localities",
+    "message": "Населенные пункты"
+  },
+  {
+    "id": "localityEditor.cancelButton",
+    "description": "Cancel button",
+    "defaultMessage": "Cancel",
+    "message": "Отмена"
+  },
+  {
+    "id": "localityEditor.errorFieldIsRequired",
+    "description": "Field is required",
+    "defaultMessage": "Field is required",
+    "message": "Поле обязательно для заполнения"
+  },
+  {
+    "id": "localityEditor.name",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "localityEditor.nameHint",
+    "description": "Locality name hint text",
+    "defaultMessage": "Locality name",
+    "message": "Название населенного пункта"
+  },
+  {
+    "id": "localityEditor.saveButton",
+    "description": "Save button",
+    "defaultMessage": "Save",
+    "message": "Сохранить"
+  },
+  {
+    "id": "localityEditor.titleAdd",
+    "description": "Locality editor dialog title",
+    "defaultMessage": "Add Locality",
+    "message": "Добавить населенный пункт"
+  },
+  {
+    "id": "localityEditor.titleEdit",
+    "description": "Locality editor dialog title",
+    "defaultMessage": "Edit Locality",
+    "message": "Редактировать населенный пункт"
+  },
+  {
+    "id": "localityEditor.region",
+    "description": "Region",
+    "defaultMessage": "Region",
+    "message": "Район"
+  },
+  {
+    "id": "localityList.filterLabelName",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "localityList.filterLabelRegion",
+    "description": "Region",
+    "defaultMessage": "Region",
+    "message": "Район"
+  },
+  {
+    "id": "mainmenu.schools",
+    "description": "Schools menu item",
+    "defaultMessage": "Schools",
+    "message": "Школы"
+  },
+  {
+    "id": "schoolEditor.cancelButton",
+    "description": "Cancel button",
+    "defaultMessage": "Cancel",
+    "message": "Отмена"
+  },
+  {
+    "id": "schoolEditor.errorFieldIsRequired",
+    "description": "Field is required",
+    "defaultMessage": "Field is required",
+    "message": "Поле обязательно для заполнения"
+  },
+  {
+    "id": "schoolEditor.locality",
+    "description": "Locality",
+    "defaultMessage": "Locality",
+    "message": "Населенный пункт"
+  },
+  {
+    "id": "schoolEditor.name",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "schoolEditor.nameHint",
+    "description": "School name hint text",
+    "defaultMessage": "School name",
+    "message": "МОУ ..."
+  },
+  {
+    "id": "schoolEditor.saveButton",
+    "description": "Save button",
+    "defaultMessage": "Save",
+    "message": "Сохранить"
+  },
+  {
+    "id": "schoolEditor.titleAdd",
+    "description": "School editor dialog title",
+    "defaultMessage": "Add School",
+    "message": "Добавить школу"
+  },
+  {
+    "id": "schoolEditor.titleEdit",
+    "description": "School editor dialog title",
+    "defaultMessage": "Edit School",
+    "message": "Редактировать школу"
+  },
+  {
+    "id": "schoolList.columnLocality",
+    "description": "Locality",
+    "defaultMessage": "Locality",
+    "message": "Населенный пункт"
+  },
+  {
+    "id": "schoolList.columnName",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "schoolList.filterLabelLocality",
+    "description": "Locality",
+    "defaultMessage": "Locality",
+    "message": "Населенный пункт"
+  },
+  {
+    "id": "schoolList.filterLabelName",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "routes.schools.title",
+    "description": "Schools title",
+    "defaultMessage": "Schools",
+    "message": "Школы"
+  },
+  {
+    "id": "schoolEditor.inn",
+    "description": "INN",
+    "defaultMessage": "INN",
+    "message": "ИНН"
+  },
+  {
+    "id": "schoolEditor.innHint",
+    "description": "INN hint text",
+    "defaultMessage": "0000000000",
+    "message": "000000000000"
+  },
+  {
+    "id": "schoolEditor.kpp",
+    "description": "KPP",
+    "defaultMessage": "KPP",
+    "message": "КПП"
+  },
+  {
+    "id": "schoolEditor.kppHint",
+    "description": "KPP hint text",
+    "defaultMessage": "000000000",
+    "message": "000000000"
+  },
+  {
+    "id": "schoolEditor.active",
+    "description": "School active",
+    "defaultMessage": "Active",
+    "message": "Активирована"
+  },
+  {
+    "id": "schoolEditor.contract",
+    "description": "School contract",
+    "defaultMessage": "Contract",
+    "message": "Договор"
+  },
+  {
+    "id": "schoolEditor.contractRejectReason",
+    "description": "School contract reject reason",
+    "defaultMessage": "Contract reject reason",
+    "message": "Причина отклонения договора"
+  },
+  {
+    "id": "schoolEditor.contractSignDate",
+    "description": "School contract sign date",
+    "defaultMessage": "Contract sign date",
+    "message": "Дата подписания договора"
+  },
+  {
+    "id": "schoolEditor.contractStatus",
+    "description": "School contract status",
+    "defaultMessage": "Contract status",
+    "message": "Статус договора"
+  },
+  {
+    "id": "schoolEditor.directorName",
+    "description": "School director name",
+    "defaultMessage": "Director name",
+    "message": "ФИО руководителя"
+  },
+  {
+    "id": "schoolEditor.directorNameHint",
+    "description": "School director name hint",
+    "defaultMessage": "John Smith",
+    "message": "Иванов Иван Иванович"
+  },
+  {
+    "id": "schoolEditor.directorPosition",
+    "description": "School director position",
+    "defaultMessage": "Director position",
+    "message": "Должность руководителя"
+  },
+  {
+    "id": "schoolEditor.directorPositionHint",
+    "description": "School director position hint",
+    "defaultMessage": "Director",
+    "message": "Директор"
+  },
+  {
+    "id": "schoolEditor.email",
+    "description": "School e-mail",
+    "defaultMessage": "E-mail",
+    "message": "E-mail"
+  },
+  {
+    "id": "schoolEditor.emailHint",
+    "description": "School e-mail hint",
+    "defaultMessage": "director@myschool.ru",
+    "message": "director@myschool.ru"
+  },
+  {
+    "id": "schoolEditor.ogrn",
+    "description": "OGRN",
+    "defaultMessage": "OGRN",
+    "message": "ОГРН"
+  },
+  {
+    "id": "schoolEditor.ogrnHint",
+    "description": "OGRN hint text",
+    "defaultMessage": "0000000000000",
+    "message": "0000000000000"
+  },
+  {
+    "id": "schoolEditor.phoneNumber",
+    "description": "School director position",
+    "defaultMessage": "Phone number",
+    "message": "Номер телефона"
+  },
+  {
+    "id": "schoolEditor.phoneNumberHint",
+    "description": "School phone number hint",
+    "defaultMessage": "+7 (499) 777-77-77",
+    "message": "+7 (499) 777-77-77"
+  },
+  {
+    "id": "schoolEditor.site",
+    "description": "School web-site",
+    "defaultMessage": "Web-site",
+    "message": "Веб-сайт"
+  },
+  {
+    "id": "schoolEditor.siteHint",
+    "description": "School site hint",
+    "defaultMessage": "http://myschool.ru",
+    "message": "http://myschool.ru"
+  },
+  {
+    "id": "schoolEditor.innFormatError",
+    "description": "INN format error",
+    "defaultMessage": "INN should be 10 digits",
+    "message": "ИНН должен состояить из 10 цифр"
+  },
+  {
+    "id": "schoolEditor.kppFormatError",
+    "description": "KPP format error",
+    "defaultMessage": "KPP should be 9 digits",
+    "message": "КПП должен состоять из 9 цифр"
+  },
+  {
+    "id": "schoolEditor.ogrnFormatError",
+    "description": "OGRN format error",
+    "defaultMessage": "OGRN should be 13 digits",
+    "message": "ОГРН должен состоять из 13 цифр"
+  },
+  {
+    "id": "eorList.columnName",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Наименование"
+  },
+  {
+    "id": "eorList.columnPublisher",
+    "description": "Publisher",
+    "defaultMessage": "Publisher",
+    "message": "Издательство"
+  },
+  {
+    "id": "eorList.filterLabelName",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Наименование"
+  },
+  {
+    "id": "eorList.filterLabelPublisher",
+    "description": "Publisher",
+    "defaultMessage": "Publisher",
+    "message": "Издательство"
+  },
+  {
+    "id": "eorAccessTypeEditor.itemOffline",
+    "description": "Offline",
+    "defaultMessage": "Offline",
+    "message": "Офлайн"
+  },
+  {
+    "id": "eorAccessTypeEditor.itemOnline",
+    "description": "Online",
+    "defaultMessage": "Online",
+    "message": "Онлайн"
+  },
+  {
+    "id": "eorAccessTypeEditor.label",
+    "description": "Access type",
+    "defaultMessage": "Access type",
+    "message": "Тип доступа"
+  },
+  {
+    "id": "subjectEditor.subjectGroupLabel",
+    "description": "Subject group",
+    "defaultMessage": "Subject group",
+    "message": "Предметная область"
+  },
+  {
+    "id": "subjectEditor.subjectLabel",
+    "description": "Subject",
+    "defaultMessage": "Subject",
+    "message": "Предмет"
+  },
+  {
+    "id": "subjectEditor.subjectLevelLabel",
+    "description": "Education level",
+    "defaultMessage": "Education level",
+    "message": "Уровень образования"
+  },
+  {
+    "id": "subjectEditor.notDefined",
+    "description": "Not defined",
+    "defaultMessage": "Not defined",
+    "message": "Не задано"
+  },
+  {
+    "id": "gradesEditor.label",
+    "description": "Grades",
+    "defaultMessage": "Grades",
+    "message": "Классы"
+  },
+  {
+    "id": "listEditor.notDefined",
+    "description": "Not defined",
+    "defaultMessage": "Not defined",
+    "message": "Не задано",
+    "files": [
+      "src/components/CommonListEditor/CommonListEditor.js"
+    ]
+  },
+  {
+    "id": "mainmenu.publishers",
+    "description": "Publishers menu item",
+    "defaultMessage": "Publishers",
+    "message": "Издательства"
+  },
+  {
+    "id": "publisherList.columnName",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "publisherEditor.cancelButton",
+    "description": "Cancel button",
+    "defaultMessage": "Cancel",
+    "message": "Отмена"
+  },
+  {
+    "id": "publisherEditor.errorFieldIsRequired",
+    "description": "Field is required",
+    "defaultMessage": "Field is required",
+    "message": "Поле обязательно для заполнения"
+  },
+  {
+    "id": "publisherEditor.name",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "publisherEditor.nameHint",
+    "description": "Publisher name hint text",
+    "defaultMessage": "Publisher name",
+    "message": "Название издательства"
+  },
+  {
+    "id": "publisherEditor.saveButton",
+    "description": "Save button",
+    "defaultMessage": "Save",
+    "message": "Сохранить"
+  },
+  {
+    "id": "publisherEditor.titleAdd",
+    "description": "Publisher editor dialog title",
+    "defaultMessage": "Add Publisher",
+    "message": "Добавить издательство"
+  },
+  {
+    "id": "publisherEditor.titleEdit",
+    "description": "Publisher editor dialog title",
+    "defaultMessage": "Edit Publisher",
+    "message": "Редактировать издательство"
+  },
+  {
+    "id": "routes.publishers.title",
+    "description": "Publishers title",
+    "defaultMessage": "Publishers",
+    "message": "Издательства"
+  },
+  {
+    "id": "eorEditor.cancelButton",
+    "description": "Cancel button",
+    "defaultMessage": "Cancel",
+    "message": "Отмена"
+  },
+  {
+    "id": "eorEditor.cover",
+    "description": "Cover",
+    "defaultMessage": "Cover",
+    "message": "Обложка"
+  },
+  {
+    "id": "eorEditor.description",
+    "description": "Description",
+    "defaultMessage": "Description",
+    "message": "Описание"
+  },
+  {
+    "id": "eorEditor.descriptionHint",
+    "description": "Description hint text",
+    "defaultMessage": "Description",
+    "message": "Описание"
+  },
+  {
+    "id": "eorEditor.errorFieldIsRequired",
+    "description": "Field is required",
+    "defaultMessage": "Field is required",
+    "message": "Поле обязательно для заполнения"
+  },
+  {
+    "id": "eorEditor.grades",
+    "description": "Grades",
+    "defaultMessage": "Grades",
+    "message": "Классы"
+  },
+  {
+    "id": "eorEditor.name",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "eorEditor.nameHint",
+    "description": "Locality name hint text",
+    "defaultMessage": "Locality name",
+    "message": "Название"
+  },
+  {
+    "id": "eorEditor.publisher",
+    "description": "Publisher",
+    "defaultMessage": "Publisher",
+    "message": "Издательство"
+  },
+  {
+    "id": "eorEditor.saveButton",
+    "description": "Save button",
+    "defaultMessage": "Save",
+    "message": "Сохранить"
+  },
+  {
+    "id": "eorEditor.subject",
+    "description": "Subject",
+    "defaultMessage": "Subject",
+    "message": "Предмет"
+  },
+  {
+    "id": "eorEditor.titleAdd",
+    "description": "Eor editor dialog title",
+    "defaultMessage": "Add Eor",
+    "message": "Добавить ЭОР"
+  },
+  {
+    "id": "eorEditor.titleEdit",
+    "description": "Eor editor dialog title",
+    "defaultMessage": "Edit Eor",
+    "message": "Редактировать ЭОР"
+  },
+  {
+    "id": "mainmenu.eors",
+    "description": "EORs menu item",
+    "defaultMessage": "EORs",
+    "message": "ЭОР"
+  },
+  {
+    "id": "routes.eors.title",
+    "description": "EORs title",
+    "defaultMessage": "EORs",
+    "message": "ЭОР"
+  },
+  {
+    "id": "eorEditor.errorSubjectMustBeExplicit",
+    "description": "Choose specific subject",
+    "defaultMessage": "Choose specific subject",
+    "message": "Выберите предмет"
+  },
+  {
+    "id": "eorList.filterLabelSubject",
+    "description": "Subject",
+    "defaultMessage": "Subject",
+    "message": "Предмет"
+  },
+  {
+    "id": "eorList.filterLabelGrades",
+    "description": "Grades",
+    "defaultMessage": "Grades",
+    "message": "Классы"
+  },
+  {
+    "id": "eorList.columnSubject",
+    "description": "Subject",
+    "defaultMessage": "Subject",
+    "message": "Предмет"
+  },
+  {
+    "id": "eorList.columnGrades",
+    "description": "Grades",
+    "defaultMessage": "Grades",
+    "message": "Классы"
+  },
+  {
+    "id": "eorElementList.columnName",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "eorElementEditor.accessType",
+    "description": "Type of access",
+    "defaultMessage": "Type of access",
+    "message": "Доступность"
+  },
+  {
+    "id": "eorElementEditor.cancelButton",
+    "description": "Cancel button",
+    "defaultMessage": "Cancel",
+    "message": "Отмена"
+  },
+  {
+    "id": "eorElementEditor.demoUrlHint",
+    "description": "Demo url hint",
+    "defaultMessage": "http://myeor.com/1000/demo",
+    "message": "http://myeor.com/1000/demo"
+  },
+  {
+    "id": "eorElementEditor.description",
+    "description": "Description",
+    "defaultMessage": "Description",
+    "message": "Описание"
+  },
+  {
+    "id": "eorElementEditor.descriptionHint",
+    "description": "Description hint text",
+    "defaultMessage": "Description",
+    "message": "Описание"
+  },
+  {
+    "id": "eorElementEditor.eor",
+    "description": "Eor",
+    "defaultMessage": "Eor",
+    "message": "ЭОР"
+  },
+  {
+    "id": "eorElementEditor.errorFieldIsRequired",
+    "description": "Field is required",
+    "defaultMessage": "Field is required",
+    "message": "Поле обязательно для заполнения"
+  },
+  {
+    "id": "eorElementEditor.errorSubjectMustBeExplicit",
+    "description": "Choose specific subject",
+    "defaultMessage": "Choose specific subject",
+    "message": "Выберите конкретный предмет"
+  },
+  {
+    "id": "eorElementEditor.multimediaLevel",
+    "description": "Multimedia level",
+    "defaultMessage": "Multimedia level",
+    "message": "Уровень мультимедийности"
+  },
+  {
+    "id": "eorElementEditor.name",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "eorElementEditor.nameHint",
+    "description": "Eor element name hint text",
+    "defaultMessage": "Eor element name",
+    "message": "Название элемента ЭОР"
+  },
+  {
+    "id": "eorElementEditor.price",
+    "description": "Price",
+    "defaultMessage": "Price",
+    "message": "Цена"
+  },
+  {
+    "id": "eorElementEditor.saveButton",
+    "description": "Save button",
+    "defaultMessage": "Save",
+    "message": "Сохранить"
+  },
+  {
+    "id": "eorElementEditor.tags",
+    "description": "Tags",
+    "defaultMessage": "Tags",
+    "message": "Тэги"
+  },
+  {
+    "id": "eorElementEditor.targetDevices",
+    "description": "Target devices",
+    "defaultMessage": "Target devices",
+    "message": "Учебные средства"
+  },
+  {
+    "id": "eorElementEditor.targetRoles",
+    "description": "Target roles",
+    "defaultMessage": "Target roles",
+    "message": "Целевая группа"
+  },
+  {
+    "id": "eorElementEditor.theme",
+    "description": "Theme",
+    "defaultMessage": "Theme",
+    "message": "Тема"
+  },
+  {
+    "id": "eorElementEditor.themeHint",
+    "description": "Theme hint text",
+    "defaultMessage": "Theme",
+    "message": "Тема"
+  },
+  {
+    "id": "eorElementEditor.titleAdd",
+    "description": "Eor element editor dialog title",
+    "defaultMessage": "Add Eor Element",
+    "message": "Добавить элемент ЭОР"
+  },
+  {
+    "id": "eorElementEditor.titleEdit",
+    "description": "Eor element editor dialog title",
+    "defaultMessage": "Edit Eor Element",
+    "message": "Редактировать элемент ЭОР"
+  },
+  {
+    "id": "eorElementEditor.typeOfContent",
+    "description": "Type",
+    "defaultMessage": "Type",
+    "message": "Вид ЭОР"
+  },
+  {
+    "id": "eorElementEditor.url",
+    "description": "Access url",
+    "defaultMessage": "Access url",
+    "message": "Основной URL"
+  },
+  {
+    "id": "eorElementEditor.urlHint",
+    "description": "Access url hint",
+    "defaultMessage": "http://myeor.com/1000",
+    "message": "http://myeor.com/1000"
+  },
+  {
+    "id": "eorElementEditor.priceHint",
+    "description": "Price hint",
+    "defaultMessage": "100",
+    "message": "100"
+  },
+  {
+    "id": "interactivityLevelEditor.label",
+    "description": "Interactivity level",
+    "defaultMessage": "Interactivity level",
+    "message": "Уровень интерактивности"
+  },
+  {
+    "id": "mainmenu.eorElementss",
+    "description": "EOR elements menu item",
+    "defaultMessage": "EOR Elements",
+    "message": "Элементы ЭОР"
+  },
+  {
+    "id": "multimediaLevelEditor.label",
+    "description": "Multimedia level",
+    "defaultMessage": "Multimedia level",
+    "message": "Уровень мультимедийности"
+  },
+  {
+    "id": "targetDevicesEditor.itemLaptop",
+    "description": "Laptop",
+    "defaultMessage": "Laptop",
+    "message": "Ноутбук"
+  },
+  {
+    "id": "targetDevicesEditor.itemPc",
+    "description": "PC",
+    "defaultMessage": "PC",
+    "message": "Компьютер"
+  },
+  {
+    "id": "targetDevicesEditor.itemProjector",
+    "description": "Projector",
+    "defaultMessage": "Projector",
+    "message": "Демонстрационное оборудование"
+  },
+  {
+    "id": "targetDevicesEditor.itemTablet",
+    "description": "Tablet",
+    "defaultMessage": "Tablet",
+    "message": "Планшет"
+  },
+  {
+    "id": "targetDevicesEditor.label",
+    "description": "Target roles",
+    "defaultMessage": "Target roles",
+    "message": "Учебные средства"
+  },
+  {
+    "id": "targetRolesEditor.itemStudent",
+    "description": "Student",
+    "defaultMessage": "Student",
+    "message": "Ученик"
+  },
+  {
+    "id": "targetRolesEditor.itemTeacher",
+    "description": "Teacher",
+    "defaultMessage": "Teacher",
+    "message": "Учитель"
+  },
+  {
+    "id": "targetRolesEditor.label",
+    "description": "Target roles",
+    "defaultMessage": "Target roles",
+    "message": "Целевая группа"
+  },
+  {
+    "id": "typeOfContentEditor.itemControl",
+    "description": "Control",
+    "defaultMessage": "Control",
+    "message": "Контрольный"
+  },
+  {
+    "id": "typeOfContentEditor.itemInformation",
+    "description": "Information",
+    "defaultMessage": "Information",
+    "message": "Информационный"
+  },
+  {
+    "id": "typeOfContentEditor.itemPractical",
+    "description": "Practical",
+    "defaultMessage": "Practical",
+    "message": "Практический"
+  },
+  {
+    "id": "typeOfContentEditor.label",
+    "description": "Type of content",
+    "defaultMessage": "Type of content",
+    "message": "Вид ЭОР"
+  },
+  {
+    "id": "tagsEditor.label",
+    "description": "Tags",
+    "defaultMessage": "Tags",
+    "message": "Тэги"
+  },
+  {
+    "id": "routes.eorElements.title",
+    "description": "EOR elements title",
+    "defaultMessage": "EOR Elements",
+    "message": "Элементы ЭОР"
+  },
+  {
+    "id": "eorElementEditor.themesCount",
+    "description": "Count of themes",
+    "defaultMessage": "Count of themes",
+    "message": "Кол-во тем (уроков)"
+  },
+  {
+    "id": "eorElementEditor.themesCountHint",
+    "description": "Count of themes hint text",
+    "defaultMessage": "5",
+    "message": "5"
+  },
+  {
+    "id": "eorElementEditor.errorInvalidNumber",
+    "description": "Invalid number",
+    "defaultMessage": "Invalid number",
+    "message": "Неправильное число"
+  },
+  {
+    "id": "eorElementList.columnEor",
+    "description": "EOR",
+    "defaultMessage": "EOR",
+    "message": "ЭОР"
+  },
+  {
+    "id": "eorElementList.columnTheme",
+    "description": "Theme",
+    "defaultMessage": "Theme",
+    "message": "Тема"
+  },
+  {
+    "id": "eorElementList.columnPrice",
+    "description": "Price",
+    "defaultMessage": "Price",
+    "message": "Цена"
+  },
+  {
+    "id": "eorElementList.filterLabelEor",
+    "description": "EOR",
+    "defaultMessage": "EOR",
+    "message": "ЭОР"
+  },
+  {
+    "id": "eorElementList.filterLabelName",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "eorElementList.filterLabelTheme",
+    "description": "Theme",
+    "defaultMessage": "Theme",
+    "message": "Тема, урок"
+  },
+  {
+    "id": "eorElementList.filterLabelAccessType",
+    "description": "Access type",
+    "defaultMessage": "Access type",
+    "message": "Доступность"
+  },
+  {
+    "id": "eorElementList.filterLabelAccessTags",
+    "description": "Tags",
+    "defaultMessage": "Tags",
+    "message": "Тэги"
+  },
+  {
+    "id": "eorElementList.filterLabelTargetDevices",
+    "description": "Target devices",
+    "defaultMessage": "Target devices",
+    "message": "Учебные средства"
+  },
+  {
+    "id": "eorElementList.filterLabelTargetRoles",
+    "description": "Target roles",
+    "defaultMessage": "Target roles",
+    "message": "Целевая группа"
+  },
+  {
+    "id": "eorElementList.filterLabelTypeOfContent",
+    "description": "Type of EOR",
+    "defaultMessage": "Type of EOR",
+    "message": "Вид ЭОР"
+  },
+  {
+    "id": "eorElementEditor.interactivityLevel",
+    "description": "Interactivity level",
+    "defaultMessage": "Interactivity level",
+    "message": "Уровень интерактивности"
+  },
+  {
+    "id": "eorElementEditor.demoUrl",
+    "description": "Demo url",
+    "defaultMessage": "Demo url",
+    "message": "Демонстрационный URL"
+  },
+  {
+    "id": "rangePicker.labelFrom",
+    "description": "Hint text of from field",
+    "defaultMessage": "From",
+    "message": "С",
+    "files": [
+      "src/components/RangePicker/RangePicker.js"
+    ]
+  },
+  {
+    "id": "rangePicker.labelTo",
+    "description": "Hint text of to field",
+    "defaultMessage": "To",
+    "message": "По",
+    "files": [
+      "src/components/RangePicker/RangePicker.js"
+    ]
+  },
+  {
+    "id": "eorElementList.filterLabelInteractivityLabel",
+    "description": "Interactivity level",
+    "defaultMessage": "Interactivity level",
+    "message": "Уровень интерактивности"
+  },
+  {
+    "id": "eorElementList.filterLabelInteractivityLevel",
+    "description": "Interactivity level",
+    "defaultMessage": "Interactivity level",
+    "message": "Уровень интерактивности"
+  },
+  {
+    "id": "eorElementList.filterLabelMultimediaLevel",
+    "description": "Multimedia level",
+    "defaultMessage": "Multimedia level",
+    "message": "Уровень мультимедийности"
+  },
+  {
+    "id": "eorElementList.filterLabelPrice",
+    "description": "Price",
+    "defaultMessage": "Price",
+    "message": "Цена"
+  },
+  {
+    "id": "activationCodeList.columnActivated",
+    "description": "Activated",
+    "defaultMessage": "Activated",
+    "message": "Активирован"
+  },
+  {
+    "id": "activationCodeList.columnActivatedFalse",
+    "description": "No",
+    "defaultMessage": "No",
+    "message": "Нет"
+  },
+  {
+    "id": "activationCodeList.columnActivatedTrue",
+    "description": "Yes",
+    "defaultMessage": "Yes",
+    "message": "Да"
+  },
+  {
+    "id": "activationCodeList.columnActivationDate",
+    "description": "Activation date",
+    "defaultMessage": "Activation date",
+    "message": "Дата активации"
+  },
+  {
+    "id": "activationCodeList.columnActivationUser",
+    "description": "Activation user",
+    "defaultMessage": "Activation user",
+    "message": "Пользователь"
+  },
+  {
+    "id": "activationCodeList.columnCode",
+    "description": "Code",
+    "defaultMessage": "Code",
+    "message": "Код"
+  },
+  {
+    "id": "activationCodeList.columnDeposit",
+    "description": "Deposit",
+    "defaultMessage": "Deposit",
+    "message": "Депозит"
+  },
+  {
+    "id": "activationCodeList.columnSchool",
+    "description": "School",
+    "defaultMessage": "School",
+    "message": "Школа"
+  },
+  {
+    "id": "activationCodeList.filterLabelActivated",
+    "description": "Activated",
+    "defaultMessage": "Activated",
+    "message": "Активирован"
+  },
+  {
+    "id": "activationCodeList.filterLabelActivationDate",
+    "description": "Activation date",
+    "defaultMessage": "Activation date",
+    "message": "Дата активации"
+  },
+  {
+    "id": "activationCodeList.filterLabelActivationUser",
+    "description": "Activation user",
+    "defaultMessage": "Activation user",
+    "message": "Пользователь"
+  },
+  {
+    "id": "activationCodeList.filterLabelCode",
+    "description": "Code",
+    "defaultMessage": "Code",
+    "message": "Код"
+  },
+  {
+    "id": "activationCodeList.filterLabelDeposit",
+    "description": "Deposit",
+    "defaultMessage": "Deposit",
+    "message": "Депозит"
+  },
+  {
+    "id": "activationCodeList.filterLabelSchool",
+    "description": "School",
+    "defaultMessage": "School",
+    "message": "Школа"
+  },
+  {
+    "id": "mainmenu.activationCodes",
+    "description": "Activation codes menu item",
+    "defaultMessage": "Activation codes",
+    "message": "Коды активации"
+  },
+  {
+    "id": "routes.activationCodes.title",
+    "description": "Activation codes title",
+    "defaultMessage": "Activation codes",
+    "message": "Коды активации"
+  },
+  {
+    "id": "activationCodeEditor.cancelButton",
+    "description": "Cancel button",
+    "defaultMessage": "Cancel",
+    "message": "Отмена"
+  },
+  {
+    "id": "activationCodeEditor.code",
+    "description": "Code",
+    "defaultMessage": "Code",
+    "message": "Код"
+  },
+  {
+    "id": "activationCodeEditor.codeHint",
+    "description": "Code name hint text",
+    "defaultMessage": "XXX-XXX-XXX",
+    "message": "XXX-XXX-XXX"
+  },
+  {
+    "id": "activationCodeEditor.deposit",
+    "description": "Deposit",
+    "defaultMessage": "Deposit",
+    "message": "Депозит"
+  },
+  {
+    "id": "activationCodeEditor.depositHint",
+    "description": "Deposit hint text",
+    "defaultMessage": "1000",
+    "message": "1000"
+  },
+  {
+    "id": "activationCodeEditor.errorFieldIsRequired",
+    "description": "Field is required",
+    "defaultMessage": "Field is required",
+    "message": "Поле обязательно для заполнения"
+  },
+  {
+    "id": "activationCodeEditor.errorInvalidNumber",
+    "description": "Invalid number",
+    "defaultMessage": "Invalid number",
+    "message": "Некорректное число"
+  },
+  {
+    "id": "activationCodeEditor.saveButton",
+    "description": "Save button",
+    "defaultMessage": "Save",
+    "message": "Сохранить"
+  },
+  {
+    "id": "activationCodeEditor.school",
+    "description": "School",
+    "defaultMessage": "School",
+    "message": "Школа"
+  },
+  {
+    "id": "activationCodeEditor.titleAdd",
+    "description": "Activation Code editor dialog title",
+    "defaultMessage": "Add Activation Code",
+    "message": "Добавить код активации"
+  },
+  {
+    "id": "activationCodeEditor.titleEdit",
+    "description": "Activation code editor dialog title",
+    "defaultMessage": "Edit Activation Code",
+    "message": "Редактировать код активации"
+  },
+  {
+    "id": "errors.accessViolationCantActivateCodeOfAnotherSchoolError",
+    "description": "Can not activate code of another school error",
+    "defaultMessage": "Can not activate code of another school",
+    "message": "Невозможно активировать код, принадлежащий другой школе"
+  },
+  {
+    "id": "errors.accessViolationError",
+    "description": "Access violation error",
+    "defaultMessage": "Access violation",
+    "message": "Ошибка доступа",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "userinfo.schoolBalance",
+    "description": "School balance label",
+    "defaultMessage": "School balance",
+    "message": "Баланс школы"
+  },
+  {
+    "id": "userinfo.undistributedBalance",
+    "description": "Undistributed balance label",
+    "defaultMessage": "Undistributed balance",
+    "message": "Нераспределенный баланс"
+  },
+  {
+    "id": "eorShowcaseList.columnGrades",
+    "description": "Grades",
+    "defaultMessage": "Grades",
+    "message": "Классы"
+  },
+  {
+    "id": "eorShowcaseList.columnName",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "eorShowcaseList.columnPublisher",
+    "description": "Publisher",
+    "defaultMessage": "Publisher",
+    "message": "Издательство"
+  },
+  {
+    "id": "eorShowcaseList.columnSubject",
+    "description": "Subject",
+    "defaultMessage": "Subject",
+    "message": "Предмет"
+  },
+  {
+    "id": "eorShowcaseList.filterLabelGrades",
+    "description": "Grades",
+    "defaultMessage": "Grades",
+    "message": "Классы"
+  },
+  {
+    "id": "eorShowcaseList.filterLabelName",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "eorShowcaseList.filterLabelPublisher",
+    "description": "Publisher",
+    "defaultMessage": "Publisher",
+    "message": "Издательство"
+  },
+  {
+    "id": "eorShowcaseList.filterLabelSubject",
+    "description": "Subject",
+    "defaultMessage": "Subject",
+    "message": "Предмет"
+  },
+  {
+    "id": "mainmenu.showcase",
+    "description": "Showcase menu item",
+    "defaultMessage": "Showcase",
+    "message": "Витрина"
+  },
+  {
+    "id": "routes.showcase.title",
+    "description": "Showcase title",
+    "defaultMessage": "Showcase",
+    "message": "Витрина"
+  },
+  {
+    "id": "errors.eorAlreadyActivated",
+    "description": "Eor already activated",
+    "defaultMessage": "Eor already activated",
+    "message": "ЭОР уже активирован"
+  },
+  {
+    "id": "errors.notEnoughBalance",
+    "description": "Not enough balance",
+    "defaultMessage": "Not enough balance",
+    "message": "Недостаточно средств",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "eorShowcaseList.columnActivated",
+    "description": "Activated",
+    "defaultMessage": "Activated / Themes count",
+    "message": "Активировано / Кол-во тем (уроков)"
+  },
+  {
+    "id": "eorShowcaseItem.publisher",
+    "description": "Publisher",
+    "defaultMessage": "Publisher",
+    "message": "Издательство"
+  },
+  {
+    "id": "eorShowcaseItem.description",
+    "description": "Description",
+    "defaultMessage": "Description",
+    "message": "Описание"
+  },
+  {
+    "id": "eorShowcaseItem.grades",
+    "description": "Grades",
+    "defaultMessage": "Grades",
+    "message": "Классы"
+  },
+  {
+    "id": "eorShowcaseItem.subject",
+    "description": "Subject",
+    "defaultMessage": "Subject",
+    "message": "Предмет"
+  },
+  {
+    "id": "eorShowcaseItem.activateAllFor",
+    "description": "Activate all for",
+    "defaultMessage": "Activate all for",
+    "message": "Активировать все за"
+  },
+  {
+    "id": "eorShowcaseItem.activated",
+    "description": "Activated",
+    "defaultMessage": "Activated / Themes count",
+    "message": "Активировано / Кол-во тем (уроков)"
+  },
+  {
+    "id": "eorShowcaseItem.eorElementName",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "eorShowcaseItem.elements",
+    "description": "Elements",
+    "defaultMessage": "Elements",
+    "message": "Элементы"
+  },
+  {
+    "id": "eorShowcaseItem.activateFor",
+    "description": "Activate for",
+    "defaultMessage": "Activate for",
+    "message": "Активировать за"
+  },
+  {
+    "id": "activated.activatedLabel",
+    "description": "Activated",
+    "defaultMessage": "Activated",
+    "message": "Активировано"
+  },
+  {
+    "id": "routes.showcaseItem.title",
+    "description": "Showcase item title",
+    "defaultMessage": "Showcase item",
+    "message": "ЭОР"
+  },
+  {
+    "id": "routes.eorReader.title",
+    "description": "Read content title",
+    "defaultMessage": "Read content",
+    "message": "Чтение контента"
+  },
+  {
+    "id": "eorShowcaseItem.activatedLabel",
+    "description": "Activated",
+    "defaultMessage": "Activated",
+    "message": "Активировано"
+  },
+  {
+    "id": "eorShowcaseItem.notAvailable",
+    "description": "Not available",
+    "defaultMessage": "Not available",
+    "message": "Недоступно"
+  },
+  {
+    "id": "eorShowcaseItem.read",
+    "description": "Read",
+    "defaultMessage": "Read",
+    "message": "Читать"
+  },
+  {
+    "id": "registration.email",
+    "description": "E-mail",
+    "defaultMessage": "E-mail",
+    "message": "E-mail"
+  },
+  {
+    "id": "registration.firstName",
+    "description": "First name",
+    "defaultMessage": "First name",
+    "message": "Имя"
+  },
+  {
+    "id": "registration.firstNameHint",
+    "description": "First name",
+    "defaultMessage": "Ivan",
+    "message": "Иван"
+  },
+  {
+    "id": "registration.lastName",
+    "description": "Last name",
+    "defaultMessage": "Last name",
+    "message": "Фамилия"
+  },
+  {
+    "id": "registration.lastNameHint",
+    "description": "First name",
+    "defaultMessage": "Petrov",
+    "message": "Петров"
+  },
+  {
+    "id": "registration.middleName",
+    "description": "Middle name",
+    "defaultMessage": "Middle name",
+    "message": "Отчество"
+  },
+  {
+    "id": "registration.middleNameHint",
+    "description": "Middle name",
+    "defaultMessage": "Ivanovich",
+    "message": "Иванович"
+  },
+  {
+    "id": "registration.password",
+    "description": "Password",
+    "defaultMessage": "Password",
+    "message": "Пароль"
+  },
+  {
+    "id": "registration.repeatPassword",
+    "description": "Repeat password",
+    "defaultMessage": "Repeat password",
+    "message": "Повтор пароля"
+  },
+  {
+    "id": "registration.role",
+    "description": "Role",
+    "defaultMessage": "Role",
+    "message": "Роль"
+  },
+  {
+    "id": "registration.school",
+    "description": "School",
+    "defaultMessage": "School",
+    "message": "Школа"
+  },
+  {
+    "id": "userRoleEditor.label",
+    "description": "Role",
+    "defaultMessage": "Role",
+    "message": "Роль"
+  },
+  {
+    "id": "userRoleEditor.labelAdmin",
+    "description": "Admin",
+    "defaultMessage": "Admin",
+    "message": "Администратор"
+  },
+  {
+    "id": "userRoleEditor.labelStudent",
+    "description": "Student",
+    "defaultMessage": "Student",
+    "message": "Ученик"
+  },
+  {
+    "id": "userRoleEditor.labelTeacher",
+    "description": "Teacher",
+    "defaultMessage": "Teacher",
+    "message": "Учитель"
+  },
+  {
+    "id": "registration.register",
+    "description": "Register",
+    "defaultMessage": "Register",
+    "message": "Зарегистрироваться"
+  },
+  {
+    "id": "registration.errorFieldIsRequired",
+    "description": "Field is required",
+    "defaultMessage": "Field is required",
+    "message": "Поле обязательно для заполнения"
+  },
+  {
+    "id": "registration.errorPasswordsDoNotMatch",
+    "description": "Passwords do not match",
+    "defaultMessage": "Passwords do not match",
+    "message": "Пароли не совпадают"
+  },
+  {
+    "id": "errors.userAlreadyExists",
+    "description": "User already exists",
+    "defaultMessage": "User already exists",
+    "message": "Пользователь уже существует",
+    "files": [
+      "src/constants/errors.js"
+    ]
+  },
+  {
+    "id": "routes.registration.title",
+    "description": "Registration",
+    "defaultMessage": "Registration",
+    "message": "Регистрация"
+  },
+  {
+    "id": "registration.emailHint",
+    "description": "ivan.petrov@example.com",
+    "defaultMessage": "ivan.petrov@example.com",
+    "message": "ivan.petrov@example.com"
+  },
+  {
+    "id": "login.haveNoAccountQuestion",
+    "description": "Have no account?",
+    "defaultMessage": "Have no account?",
+    "message": "Нет аккаунта?",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.registerLink",
+    "description": "Create new",
+    "defaultMessage": "Create new",
+    "message": "Зарегистрироваться"
+  },
+  {
+    "id": "registration.position",
+    "description": "Position",
+    "defaultMessage": "Position",
+    "message": "Должность"
+  },
+  {
+    "id": "registration.positionHint",
+    "description": "Teacher",
+    "defaultMessage": "Teacher",
+    "message": "Учитель"
+  },
+  {
+    "id": "registration.alreadyHaveAccountQuestion",
+    "description": "Already have an account?",
+    "defaultMessage": "Already have an account?",
+    "message": "Уже есть аккаунт?"
+  },
+  {
+    "id": "registration.loginLink",
+    "description": "Login",
+    "defaultMessage": "Login",
+    "message": "Войти"
+  },
+  {
+    "id": "autoCompleteField.startEnterToSearch",
+    "description": "Start enter to search",
+    "defaultMessage": "Start enter to search...",
+    "message": "Начните вводить для поиска...",
+    "files": [
+      "src/components/AutoCompleteField/AutoCompleteField.js"
+    ]
+  },
+  {
+    "id": "listEditor.chooseFromTheList",
+    "description": "Choose from the list...",
+    "defaultMessage": "Choose from the list...",
+    "message": "Выберите...",
+    "files": [
+      "src/components/CommonListEditor/CommonListEditor.js"
+    ]
+  },
+  {
+    "id": "login.title",
+    "description": "Login to Portal of Electronic Education Resources",
+    "defaultMessage": "Login to Portal of Electronic Education Resources",
+    "message": "Войти в портал Электронных образовательных ресурсов Московской области",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "registration.title",
+    "description": "Register in the Portal of Electronic Education Resources",
+    "defaultMessage": "Register in the Portal of Electronic Education Resources",
+    "message": "Регистрация на портале Электронных образовательных ресурсов Московской области"
+  },
+  {
+    "id": "mainmenu.profile",
+    "description": "Profile menu item",
+    "defaultMessage": "Profile",
+    "message": "Профиль"
+  },
+  {
+    "id": "routes.profile.title",
+    "description": "Profile",
+    "defaultMessage": "Profile",
+    "message": "Профиль"
+  },
+  {
+    "id": "profile.accessLevel",
+    "description": "Access level",
+    "defaultMessage": "Access level",
+    "message": "Уровень доступа"
+  },
+  {
+    "id": "profile.accessLevelGlobalAdmin",
+    "description": "Global admin",
+    "defaultMessage": "Global admin",
+    "message": "Глобальный администратор"
+  },
+  {
+    "id": "profile.accessLevelSchoolAdmin",
+    "description": "School admin",
+    "defaultMessage": "School admin",
+    "message": "Администратор школы"
+  },
+  {
+    "id": "profile.accessLevelUser",
+    "description": "User",
+    "defaultMessage": "User",
+    "message": "Пользователь"
+  },
+  {
+    "id": "profile.becomeAdmin",
+    "description": "Become admin",
+    "defaultMessage": "Become admin",
+    "message": "Стать администратором"
+  },
+  {
+    "id": "profile.school",
+    "description": "School",
+    "defaultMessage": "School",
+    "message": "Школа"
+  },
+  {
+    "id": "profile.schoolHeader",
+    "description": "School",
+    "defaultMessage": "School",
+    "message": "Школа"
+  },
+  {
+    "id": "profile.userHeader",
+    "description": "User",
+    "defaultMessage": "User",
+    "message": "Пользователь"
+  },
+  {
+    "id": "profile.fullName",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "ФИО"
+  },
+  {
+    "id": "profile.contractStatus",
+    "description": "Contract status",
+    "defaultMessage": "Contract status",
+    "message": "Статус договора"
+  },
+  {
+    "id": "profile.contractStatusNotSigned",
+    "description": "Not signed",
+    "defaultMessage": "Not signed",
+    "message": "Не подписан"
+  },
+  {
+    "id": "profile.contractStatusPending",
+    "description": "Pending",
+    "defaultMessage": "Pending",
+    "message": "Ожидает рассмотрения"
+  },
+  {
+    "id": "profile.contractStatusRejected",
+    "description": "Rejected",
+    "defaultMessage": "Rejected",
+    "message": "Отклонен"
+  },
+  {
+    "id": "profile.contractStatusSigned",
+    "description": "Signed",
+    "defaultMessage": "Signed",
+    "message": "Подписан"
+  },
+  {
+    "id": "profile.downloadContract",
+    "description": "Download contract",
+    "defaultMessage": "Download contract",
+    "message": "Скачать договор"
+  },
+  {
+    "id": "profile.submitContract",
+    "description": "Submit contract",
+    "defaultMessage": "Submit contract",
+    "message": "Отправить договор"
+  },
+  {
+    "id": "profile.contractRejectReason",
+    "description": "Reject reason",
+    "defaultMessage": "Reject reason",
+    "message": "Причина отклонения"
+  },
+  {
+    "id": "profile.contractDialogCancel",
+    "description": "Cancel",
+    "defaultMessage": "Cancel",
+    "message": "Отмена"
+  },
+  {
+    "id": "profile.contractDialogSubmit",
+    "description": "Submit",
+    "defaultMessage": "Submit",
+    "message": "Отправить"
+  },
+  {
+    "id": "profile.contractDialogDownloadLink",
+    "description": "Download",
+    "defaultMessage": "Download",
+    "message": "Скачайте"
+  },
+  {
+    "id": "profile.contractDialogStep1",
+    "description": "the contract template",
+    "defaultMessage": "the contract template",
+    "message": "шаблон договора"
+  },
+  {
+    "id": "profile.contractDialogStep2",
+    "description": "Enter your information, sign it and scan.",
+    "defaultMessage": "Enter your information and contract number",
+    "message": "Распечатайте, введите необходимую информацию и номер договора"
+  },
+  {
+    "id": "profile.contractDialogStep3",
+    "description": "Upload the scanned contract using button below",
+    "defaultMessage": "Upload the scanned contract below (only images and PDFs are accepted)",
+    "message": "Загрузите скан договора"
+  },
+  {
+    "id": "profile.contractFile",
+    "description": "Contract file",
+    "defaultMessage": "Contract file",
+    "message": "Скан договора"
+  },
+  {
+    "id": "profile.becomeAdminDialogCancel",
+    "description": "Cancel",
+    "defaultMessage": "Cancel",
+    "message": "Отмена"
+  },
+  {
+    "id": "profile.becomeAdminDialogSubmit",
+    "description": "Submit",
+    "defaultMessage": "Submit",
+    "message": "Отправить"
+  },
+  {
+    "id": "profile.becomeAdminDialogCodeLabel",
+    "description": "Activation code",
+    "defaultMessage": "Activation code",
+    "message": "Код активации"
+  },
+  {
+    "id": "profile.becomeAdminDialogCodeNotFound",
+    "description": "Code not found",
+    "defaultMessage": "Code not found",
+    "message": "Код не найден"
+  },
+  {
+    "id": "schoolEditor.contractBeginDate",
+    "description": "School contract sign date",
+    "defaultMessage": "Contract begin date",
+    "message": "Дата начала договора"
+  },
+  {
+    "id": "schoolEditor.contractEndDate",
+    "description": "School contract sign date",
+    "defaultMessage": "Contract end date",
+    "message": "Дата окончания договора"
+  },
+  {
+    "id": "contractStatusView.contractStatusNotSigned",
+    "description": "Not signed",
+    "defaultMessage": "Not signed",
+    "message": "Не подписан"
+  },
+  {
+    "id": "contractStatusView.contractStatusPending",
+    "description": "Pending",
+    "defaultMessage": "Pending",
+    "message": "Ожидает рассмотрения"
+  },
+  {
+    "id": "contractStatusView.contractStatusRejected",
+    "description": "Rejected",
+    "defaultMessage": "Rejected",
+    "message": "Отклонен"
+  },
+  {
+    "id": "contractStatusView.contractStatusSigned",
+    "description": "Signed",
+    "defaultMessage": "Signed",
+    "message": "Подписан"
+  },
+  {
+    "id": "schoolList.columnContractStatus",
+    "description": "Contract status",
+    "defaultMessage": "Contract status",
+    "message": "Статус договора"
+  },
+  {
+    "id": "contractAcceptBox.buttonLabelAccept",
+    "description": "Accept",
+    "defaultMessage": "Accept",
+    "message": "Принять"
+  },
+  {
+    "id": "contractAcceptBox.buttonLabelReject",
+    "description": "Reject",
+    "defaultMessage": "Reject",
+    "message": "Отклонить"
+  },
+  {
+    "id": "contractAcceptBox.dialogCancel",
+    "description": "Cancel",
+    "defaultMessage": "Cancel",
+    "message": "Отмена"
+  },
+  {
+    "id": "contractAcceptBox.dialogSubmit",
+    "description": "Submit",
+    "defaultMessage": "Submit",
+    "message": "Отправить"
+  },
+  {
+    "id": "contractAcceptBox.dialogTitle",
+    "description": "Enter reject reason",
+    "defaultMessage": "Enter reject reason",
+    "message": "Введите причину отклонения"
+  },
+  {
+    "id": "contractAcceptBox.rejectReasonHint",
+    "description": "Invalid data",
+    "defaultMessage": "Invalid data",
+    "message": "Плохое качество изображения"
+  },
+  {
+    "id": "contractAcceptBox.rejectReasonLabel",
+    "description": "Reject reason",
+    "defaultMessage": "Reject reason",
+    "message": "Причина отклонения"
+  },
+  {
+    "id": "contractAcceptBox.checkFileText",
+    "description": "the contract file, check and make the decision",
+    "defaultMessage": "the contract file, check and make the decision",
+    "message": "файл контракта, проверьте и примите решение"
+  },
+  {
+    "id": "contractAcceptBox.downloadText",
+    "description": "Download",
+    "defaultMessage": "Download",
+    "message": "Скачайте"
+  },
+  {
+    "id": "contractSubmitGreeting.goToProfile",
+    "description": "Go to profile",
+    "defaultMessage": "Go to the profile",
+    "message": "Перейти в Профиль"
+  },
+  {
+    "id": "contractSubmitGreeting.text",
+    "description": "Greeting text",
+    "defaultMessage": "Your school is not signed contract yet. If you are school admin, please go to the profile and submit the contract for review.",
+    "message": "Ваша школа еще не подписала договор. Если вы являетесь администратором школы, то перейдите в профиль для отправки договора."
+  },
+  {
+    "id": "cotractStatusEditor.contractStatusNotSigned",
+    "description": "Not signed",
+    "defaultMessage": "Not signed",
+    "message": "Не подписан"
+  },
+  {
+    "id": "cotractStatusEditor.contractStatusPending",
+    "description": "Pending",
+    "defaultMessage": "Pending",
+    "message": "Ожидает рассмотрения"
+  },
+  {
+    "id": "cotractStatusEditor.contractStatusRejected",
+    "description": "Rejected",
+    "defaultMessage": "Rejected",
+    "message": "Отклонен"
+  },
+  {
+    "id": "cotractStatusEditor.contractStatusSigned",
+    "description": "Signed",
+    "defaultMessage": "Signed",
+    "message": "Подписан"
+  },
+  {
+    "id": "cotractStatusEditor.label",
+    "description": "Contract status",
+    "defaultMessage": "Contract status",
+    "message": "Статус договора"
+  },
+  {
+    "id": "schoolList.filterLabelContractStatus",
+    "description": "Contract status",
+    "defaultMessage": "Contract status",
+    "message": "Статус договора"
+  },
+  {
+    "id": "schoolList.columnBalance",
+    "description": "Balance",
+    "defaultMessage": "Balance",
+    "message": "Баланс"
+  },
+  {
+    "id": "registration.acceptLicense",
+    "description": "I have read and accepted",
+    "defaultMessage": "I have read and accepted",
+    "message": "Я прочитал и соглашаюсь с условиями"
+  },
+  {
+    "id": "registration.acceptPersonalDataProcessing",
+    "description": "I consent to processing my personal data",
+    "defaultMessage": "I consent to processing my personal data",
+    "message": "Даю согласие на обработку персональных данных"
+  },
+  {
+    "id": "registration.licenseAgreement",
+    "description": "license agreement",
+    "defaultMessage": "the license agreement",
+    "message": "лицензионного соглашения"
+  },
+  {
+    "id": "registration.errorInvalidEmail",
+    "description": "Invalid e-mail",
+    "defaultMessage": "Invalid e-mail",
+    "message": "Некорректный e-mail"
+  },
+  {
+    "id": "routes.componentTestPage.title",
+    "description": "Test page",
+    "defaultMessage": "Test page",
+    "message": "Тестовая страница"
+  },
+  {
+    "id": "balanceTransfer.transferText",
+    "description": "Start enter to search",
+    "defaultMessage": "Transfer balance from",
+    "message": "Списать баллы с"
+  },
+  {
+    "id": "balanceTransfer.transferTo",
+    "description": "To",
+    "defaultMessage": "To",
+    "message": "В пользу"
+  },
+  {
+    "id": "balanceTransfer.schoolFrom",
+    "description": "School for withdraw",
+    "defaultMessage": "School for withdraw",
+    "message": "Школа для списания"
+  },
+  {
+    "id": "balanceTransfer.schoolTo",
+    "description": "School for deposit",
+    "defaultMessage": "School for deposit",
+    "message": "Школа для зачисления"
+  },
+  {
+    "id": "balanceTransfer.labelCancel",
+    "description": "Cancel",
+    "defaultMessage": "Cancel",
+    "message": "Отмена"
+  },
+  {
+    "id": "balanceTransfer.labelSubmit",
+    "description": "Submit",
+    "defaultMessage": "Submit",
+    "message": "Отправить"
+  },
+  {
+    "id": "balanceTransfer.title",
+    "description": "Transfer balanc",
+    "defaultMessage": "Transfer balance",
+    "message": "Перевести баллы"
+  },
+  {
+    "id": "balanceTransfer.amount",
+    "description": "Amount",
+    "defaultMessage": "Amount",
+    "message": "Кол-во"
+  },
+  {
+    "id": "balanceTransfer.inTheAmount",
+    "description": "In the amount of",
+    "defaultMessage": "In the amount of",
+    "message": "В количестве"
+  },
+  {
+    "id": "balanceTransfer.errorFieldIsRequired",
+    "description": "Field is required",
+    "defaultMessage": "Field is required",
+    "message": "Поле обязательно для заполнения"
+  },
+  {
+    "id": "balanceTransfer.max",
+    "description": "max.",
+    "defaultMessage": "max.",
+    "message": "макс."
+  },
+  {
+    "id": "balanceTransfer.errorAmountMustBePositive",
+    "description": "Number must be positive",
+    "defaultMessage": "Number must be positive",
+    "message": "Число должно быть положительным"
+  },
+  {
+    "id": "balanceTransfer.errorAmountMustBeLessThan",
+    "description": "Amount must be less than",
+    "defaultMessage": "Amount must be less or equals",
+    "message": "Количество должно быть меньше или равно"
+  },
+  {
+    "id": "localitySelector.label",
+    "description": "Locality",
+    "defaultMessage": "Locality",
+    "message": "Населенный пункт"
+  },
+  {
+    "id": "schoolSelector.label",
+    "description": "School",
+    "defaultMessage": "School",
+    "message": "Школа"
+  },
+  {
+    "id": "filterPanel.stringQueryEquals",
+    "description": "Operator name in the stringified query",
+    "defaultMessage": "=",
+    "message": "=",
+    "files": [
+      "src/components/FilterPanel/FilterPanel.js"
+    ]
+  },
+  {
+    "id": "schoolEditor.fullName",
+    "description": "Full ame",
+    "defaultMessage": "Full Name",
+    "message": "Полное название"
+  },
+  {
+    "id": "schoolEditor.fullNameHint",
+    "description": "Full name hint text",
+    "defaultMessage": "Full name",
+    "message": "Муниципальное образовательное учреждение ..."
+  },
+  {
+    "id": "profile.contractNumber",
+    "description": "Contract number",
+    "defaultMessage": "Contract number",
+    "message": "Номер договора"
+  },
+  {
+    "id": "profile.contractDialogStep2_1",
+    "description": "Enter your information, sign it and scan.",
+    "defaultMessage": ", sign it and scan.",
+    "message": ", подпишите и отсканируйте"
+  },
+  {
+    "id": "profile.contractDate",
+    "description": "Contract date",
+    "defaultMessage": "Contract date",
+    "message": "Дата договора"
+  },
+  {
+    "id": "eorShowcaseItem.eorElementNumber",
+    "description": "Number",
+    "defaultMessage": "Number",
+    "message": "Номер"
+  },
+  {
+    "id": "mainmenu.reports",
+    "description": "Reports menu item",
+    "defaultMessage": "Export reports",
+    "message": "Отчеты"
+  },
+  {
+    "id": "routes.reports.title",
+    "description": "Reports title",
+    "defaultMessage": "Reports export",
+    "message": "Отчеты"
+  },
+  {
+    "id": "reportEight.name",
+    "description": "Report 8",
+    "defaultMessage": "Report 8",
+    "message": "Суммарное количество активации единиц ЭОР по муниципалитетам"
+  },
+  {
+    "id": "reportFive.name",
+    "description": "Report 5",
+    "defaultMessage": "Report 5",
+    "message": "Количество активированных Единиц ЭОР"
+  },
+  {
+    "id": "reportFour.name",
+    "description": "Report 4",
+    "defaultMessage": "Report 4",
+    "message": "Реестр сотрудников общеобразовательных организаций в Московской области, получивших доступ к Витрине ЭОР"
+  },
+  {
+    "id": "reportNine.name",
+    "description": "Report 9",
+    "defaultMessage": "Report 9",
+    "message": "Суммарное количество активаций единиц ЭОР в разрезе по месяцам"
+  },
+  {
+    "id": "reportOne.name",
+    "description": "Report 1",
+    "defaultMessage": "Report 1",
+    "message": "Сводная статистика по количеству заключенных сублицензионных договоров с ОО"
+  },
+  {
+    "id": "reportSix.name",
+    "description": "Report 6",
+    "defaultMessage": "Report 6",
+    "message": "Единицы ЭОР с разбивкой по ОО"
+  },
+  {
+    "id": "reportTen.name",
+    "description": "Report 10",
+    "defaultMessage": "Report 10",
+    "message": "Суммарное количество активаций Единиц ЭОР в разрезе по уровням образования и классам"
+  },
+  {
+    "id": "reportThree.name",
+    "description": "Report 3",
+    "defaultMessage": "Report 3",
+    "message": "Контент Витрины ЭОР"
+  },
+  {
+    "id": "download.label",
+    "description": "Download",
+    "defaultMessage": "Download",
+    "message": "Скачать"
+  },
+  {
+    "id": "login.buttonLabelMosreg",
+    "description": "Log in button label",
+    "defaultMessage": "Login using Moscow region portal",
+    "message": "Войти с помощью Школьного портала"
+  },
+  {
+    "id": "login.messageMosreg",
+    "description": "If you have an account in the Moscow region portal",
+    "defaultMessage": "If you have an account in the Moscow region portal",
+    "message": "Если у Вас есть аккаунт на Школьном портале Московской области, то Вы можете"
+  },
+  {
+    "id": "usersList.filterLabelEmail",
+    "description": "E-mail",
+    "defaultMessage": "E-mail",
+    "message": "E-mail",
+    "files": [
+      "src/components/UsersList/UsersList.js"
+    ]
+  },
+  {
+    "id": "usersList.filterLabelFirstName",
+    "description": "First Name",
+    "defaultMessage": "First Name",
+    "message": "Имя",
+    "files": [
+      "src/components/UsersList/UsersList.js"
+    ]
+  },
+  {
+    "id": "usersList.filterLabelLastName",
+    "description": "Last Name",
+    "defaultMessage": "Last Name",
+    "message": "Фамилия",
+    "files": [
+      "src/components/UsersList/UsersList.js"
+    ]
+  },
+  {
+    "id": "accessLevelEditor.label",
+    "description": "Access Level",
+    "defaultMessage": "Access Level",
+    "message": "Роли в системе"
+  },
+  {
+    "id": "accessLevelEditor.labelAdmin",
+    "description": "School Admin",
+    "defaultMessage": "School Admin",
+    "message": "Школьный администратор"
+  },
+  {
+    "id": "accessLevelEditor.labelGlobalAdmin",
+    "description": "Global Admin",
+    "defaultMessage": "Global Admin",
+    "message": "Глобальный администратор"
+  },
+  {
+    "id": "accessLevelEditor.labelStudent",
+    "description": "Student",
+    "defaultMessage": "Student",
+    "message": "Ученик"
+  },
+  {
+    "id": "schoolEditor.contractNumber",
+    "description": "Contract number",
+    "defaultMessage": "Contract number",
+    "message": "Номер договора"
+  },
+  {
+    "id": "schoolEditor.contractNumberHint",
+    "description": "Contract Number Hint",
+    "defaultMessage": "A-000000",
+    "message": "A-000000"
+  },
+  {
+    "id": "userEditor.middleName",
+    "description": "User editor first name input label",
+    "defaultMessage": "Middle Name",
+    "message": "Отчество",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "userEditor.middleNameHint",
+    "description": "User editor first name input hint",
+    "defaultMessage": "Van",
+    "message": "Иванович",
+    "files": [
+      "src/components/UserEditor/UserEditor.js"
+    ]
+  },
+  {
+    "id": "generate.label",
+    "description": "Generate",
+    "defaultMessage": "Generate",
+    "message": "Сформировать"
+  },
+  {
+    "id": "packageSelector.label",
+    "description": "Select package",
+    "defaultMessage": "Select package",
+    "message": "Выберите пакет"
+  },
+  {
+    "id": "packageSelector.showPackageItems",
+    "description": "Show items",
+    "defaultMessage": "Show items",
+    "message": "Показать"
+  },
+  {
+    "id": "packageView.columnDescription",
+    "description": "Description",
+    "defaultMessage": "Description",
+    "message": "Описание"
+  },
+  {
+    "id": "packageView.columnEor",
+    "description": "Eor",
+    "defaultMessage": "Eor",
+    "message": "ЭОР"
+  },
+  {
+    "id": "packageView.columnGrades",
+    "description": "Grades",
+    "defaultMessage": "Grades",
+    "message": "Классы"
+  },
+  {
+    "id": "packageView.columnName",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "packageView.columnNumber",
+    "description": "Number",
+    "defaultMessage": "Number",
+    "message": "Номер"
+  },
+  {
+    "id": "packageView.columnSubject",
+    "description": "Subject",
+    "defaultMessage": "Subject",
+    "message": "Предмет"
+  },
+  {
+    "id": "packageView.columnTheme",
+    "description": "Theme",
+    "defaultMessage": "Theme",
+    "message": "Тема"
+  },
+  {
+    "id": "routes.package.title",
+    "description": "Package",
+    "defaultMessage": "Package",
+    "message": "Пакеты"
+  },
+  {
+    "id": "reports.activationDate",
+    "description": "Activation Date",
+    "defaultMessage": "Activation Date",
+    "message": "Дата активации"
+  },
+  {
+    "id": "packageSelector.price",
+    "description": "Price",
+    "defaultMessage": "Price",
+    "message": "Цена"
+  },
+  {
+    "id": "helpPage.forGlobalAdmins",
+    "description": "Manual for global admins",
+    "defaultMessage": "Manual for global admins",
+    "message": "Руководство для администраторов витрины"
+  },
+  {
+    "id": "helpPage.forSchoolAdmins",
+    "description": "Manual for school admins",
+    "defaultMessage": "Manual for school admins",
+    "message": "Руководство для администраторов образовательных учреждений"
+  },
+  {
+    "id": "helpPage.forUsers",
+    "description": "Manual for students and teachers",
+    "defaultMessage": "Manual for students and teachers",
+    "message": "Руководство для учеников и учителей"
+  },
+  {
+    "id": "routes.help.title",
+    "description": "Help title",
+    "defaultMessage": "Help",
+    "message": "Справка"
+  },
+  {
+    "id": "helpPage.title",
+    "description": "Help title",
+    "defaultMessage": "Help",
+    "message": "Справка"
+  },
+  {
+    "id": "helpLinkText.linkText",
+    "description": "Help link text",
+    "defaultMessage": "Help",
+    "message": "Справка",
+    "files": [
+      "src/components/HelpLinkText/HelpLinkText.js"
+    ]
+  },
+  {
+    "id": "reports.schoolSelector.label",
+    "description": "School",
+    "defaultMessage": "School",
+    "message": "Школа"
+  },
+  {
+    "id": "reports.steps.selectTheReport",
+    "description": "Select the report",
+    "defaultMessage": "Select the report",
+    "message": "Выберите отчет"
+  },
+  {
+    "id": "reports.steps.selectFiltersAndSort",
+    "description": "Select filters and sort fields",
+    "defaultMessage": "Select filters and sort fields",
+    "message": "Укажите фильтры"
+  },
+  {
+    "id": "reports.steps.downloadReport",
+    "description": "Download report",
+    "defaultMessage": "Download report",
+    "message": "Скачайте отчет"
+  },
+  {
+    "id": "reports.steps.nextStep",
+    "description": "Next",
+    "defaultMessage": "Next",
+    "message": "Дальше"
+  },
+  {
+    "id": "reports.steps.prevStep",
+    "description": "Back",
+    "defaultMessage": "Back",
+    "message": "Назад"
+  },
+  {
+    "id": "reports.steps.notFoundStep",
+    "description": "This step is undefined",
+    "defaultMessage": "This step is undefined",
+    "message": "Возникла ошибка..."
+  },
+  {
+    "id": "reports.ready",
+    "description": "Report is ready to download",
+    "defaultMessage": "Report is ready to download",
+    "message": "Отчет готов к загрузке"
+  },
+  {
+    "id": "reports.label",
+    "description": "Report name",
+    "defaultMessage": "Report name",
+    "message": "Выбран отчет"
+  },
+  {
+    "id": "reports.proccess",
+    "description": "Report is preparing",
+    "defaultMessage": "Report is preparing",
+    "message": "Подождите, пожалуйста, отчет формируется..."
+  },
+  {
+    "id": "reports.regionSelector.label",
+    "description": "Region",
+    "defaultMessage": "Region",
+    "message": "Район"
+  },
+  {
+    "id": "eorEditor.id",
+    "description": "ID",
+    "defaultMessage": "ID",
+    "message": "ID"
+  },
+  {
+    "id": "eorElementEditor.id",
+    "description": "ID",
+    "defaultMessage": "ID",
+    "message": "ID"
+  },
+  {
+    "id": "commonList.total",
+    "description": "Total",
+    "defaultMessage": "Total",
+    "message": "Всего"
+  },
+  {
+    "id": "errors.demoAlreadyActivated",
+    "description": "You have already activated demo",
+    "defaultMessage": "You have already activated demo",
+    "message": "Вы уже активировали демо"
+  },
+  {
+    "id": "eorShowcaseItem.activateAllDemo",
+    "description": "Activate all for demo",
+    "defaultMessage": "Activate all for demo",
+    "message": "Активировать демо"
+  },
+  {
+    "id": "eorShowcaseItem.activateDemo",
+    "description": "Activate demo",
+    "defaultMessage": "Activate demo",
+    "message": "Активировать демо"
+  },
+  {
+    "id": "eorShowcaseItem.demoExpirationDate",
+    "description": "Demo expires in",
+    "defaultMessage": "Demo expires in",
+    "message": "Демо истекает"
+  },
+  {
+    "id": "eorElementViewer.accessType",
+    "description": "Type of access",
+    "defaultMessage": "Type of access",
+    "message": "Тип доступа"
+  },
+  {
+    "id": "eorElementViewer.description",
+    "description": "Description",
+    "defaultMessage": "Description",
+    "message": "Описание"
+  },
+  {
+    "id": "eorElementViewer.descriptionHint",
+    "description": "Description hint text",
+    "defaultMessage": "Description",
+    "message": "Описание"
+  },
+  {
+    "id": "eorElementViewer.eor",
+    "description": "Eor",
+    "defaultMessage": "Eor",
+    "message": "ЭОР"
+  },
+  {
+    "id": "eorElementViewer.id",
+    "description": "ID",
+    "defaultMessage": "ID",
+    "message": "ID"
+  },
+  {
+    "id": "eorElementViewer.interactivityLevel",
+    "description": "Interactivity level",
+    "defaultMessage": "Interactivity level",
+    "message": "Уровень интерактивности"
+  },
+  {
+    "id": "eorElementViewer.multimediaLevel",
+    "description": "Multimedia level",
+    "defaultMessage": "Multimedia level",
+    "message": "Уровень мультимедийности"
+  },
+  {
+    "id": "eorElementViewer.name",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "eorElementViewer.nameHint",
+    "description": "Eor element name hint text",
+    "defaultMessage": "Eor element name",
+    "message": "Название элемента ЭОР"
+  },
+  {
+    "id": "eorElementViewer.tags",
+    "description": "Tags",
+    "defaultMessage": "Tags",
+    "message": "Тэги"
+  },
+  {
+    "id": "eorElementViewer.targetDevices",
+    "description": "Target devices",
+    "defaultMessage": "Target devices",
+    "message": "Учебные средства"
+  },
+  {
+    "id": "eorElementViewer.targetRoles",
+    "description": "Target roles",
+    "defaultMessage": "Target roles",
+    "message": "Целевая группа"
+  },
+  {
+    "id": "eorElementViewer.theme",
+    "description": "Theme",
+    "defaultMessage": "Theme",
+    "message": "Тема"
+  },
+  {
+    "id": "eorElementViewer.themeHint",
+    "description": "Theme hint text",
+    "defaultMessage": "Theme",
+    "message": "Тема"
+  },
+  {
+    "id": "eorElementViewer.themesCount",
+    "description": "Count of themes",
+    "defaultMessage": "Count of themes",
+    "message": "Число тем"
+  },
+  {
+    "id": "eorElementViewer.themesCountHint",
+    "description": "Count of themes hint text",
+    "defaultMessage": "5",
+    "message": "5"
+  },
+  {
+    "id": "eorElementViewer.typeOfContent",
+    "description": "Type",
+    "defaultMessage": "Type",
+    "message": "Тип"
+  },
+  {
+    "id": "eorShowcaseItem.showInfo",
+    "description": "Show information",
+    "defaultMessage": "Show information",
+    "message": "Показать информацию"
+  },
+  {
+    "id": "eorElementViewer.cancelButton",
+    "description": "Close",
+    "defaultMessage": "Close",
+    "message": "Закрыть"
+  },
+  {
+    "id": "reportTwo.name",
+    "description": "Report 2",
+    "defaultMessage": "Report 2",
+    "message": "Информация о заключенных договорах с общеобразовательными организациями в Московской области"
+  },
+  {
+    "id": "reports.localitySelector.label",
+    "description": "Locality",
+    "defaultMessage": "Locality",
+    "message": "Населенный пункт"
+  },
+  {
+    "id": "reportSeven.name",
+    "description": "Report 7",
+    "defaultMessage": "Report 7",
+    "message": "Статистика активаций ЭОР"
+  },
+  {
+    "id": "reportEleven.name",
+    "description": "Report 11",
+    "defaultMessage": "Report 11",
+    "message": "Обращения к единицам ЭОР"
+  },
+  {
+    "id": "reportTwelve.name",
+    "description": "Report 12",
+    "defaultMessage": "Report 12",
+    "message": "Информация по результатам распределения и перераспределения прав доступа между ОО"
+  },
+  {
+    "id": "schoolEditor.contractFile",
+    "description": "Contract file",
+    "defaultMessage": "Contract file",
+    "message": "Файл договора"
+  },
+  {
+    "id": "schoolEditor.download",
+    "description": "Download",
+    "defaultMessage": "Download",
+    "message": "Скачать"
+  },
+  {
+    "id": "schoolEditor.mosregId",
+    "description": "ID mosreg",
+    "defaultMessage": "ID mosreg",
+    "message": "ID Дневник.ру"
+  },
+  {
+    "id": "eorActivatedSelector.label",
+    "description": "Activated",
+    "defaultMessage": "Activated",
+    "message": "Активирован"
+  },
+  {
+    "id": "eorActivatedSelector.labelActivated",
+    "description": "Activated",
+    "defaultMessage": "Activated",
+    "message": "Активирован"
+  },
+  {
+    "id": "eorActivatedSelector.labelNotActivated",
+    "description": "Not activated",
+    "defaultMessage": "Not activated",
+    "message": "Не активирован"
+  },
+  {
+    "id": "eorShowcaseList.filterLabelActivated",
+    "description": "Activated",
+    "defaultMessage": "Activated",
+    "message": "Активирован"
+  },
+  {
+    "id": "packageSelector.choosePackageDescription",
+    "description": "Package choose description",
+    "defaultMessage": "Chosen package will be activated when administrator accepts your contract. The price of the package will be debited from your account.",
+    "message": "Выбранный пакет будет активирован, когда администратор подтвердит ваш договор. С вашего счета будет списана стоимость пакета."
+  },
+  {
+    "id": "packageSelector.packageTooltip",
+    "description": "Show package details",
+    "defaultMessage": "Show package details",
+    "message": "Посмотреть состав пакета"
+  },
+  {
+    "id": "eorShowcaseItem.demoAccess",
+    "description": "Demo accessn",
+    "defaultMessage": "Demo access",
+    "message": "Демо-доступ"
+  },
+  {
+    "id": "eorShowcaseItem.fullAccess",
+    "description": "Full accessn",
+    "defaultMessage": "Full access",
+    "message": "Полный доступ"
+  },
+  {
+    "id": "eorShowcaseItem.eorElementTheme",
+    "description": "Theme",
+    "defaultMessage": "Theme",
+    "message": "Тема"
+  },
+  {
+    "id": "schoolList.columnAdmins",
+    "description": "Administrator(s)",
+    "defaultMessage": "Administrator(s)",
+    "message": "Администратор(ы)"
+  },
+  {
+    "id": "schoolList.filterLabelContractBeginDate",
+    "description": "Contract sign date",
+    "defaultMessage": "Contract sign date",
+    "message": "Дата подписания договора"
+  },
+  {
+    "id": "profile.accessRoleGlobalAdmin",
+    "description": "Global admin",
+    "defaultMessage": "Global admin",
+    "message": "Глобальный администратор"
+  },
+  {
+    "id": "profile.accessRolePublisher",
+    "description": "Publisher",
+    "defaultMessage": "Publisher",
+    "message": "Правообладатель"
+  },
+  {
+    "id": "profile.accessRoleRegionAdmin",
+    "description": "Region admin",
+    "defaultMessage": "Region admin",
+    "message": "Администратор муниципалитета"
+  },
+  {
+    "id": "profile.accessRoleSchoolAdmin",
+    "description": "School admin",
+    "defaultMessage": "School admin",
+    "message": "Администратор школы"
+  },
+  {
+    "id": "profile.accessRoleStudent",
+    "description": "Student",
+    "defaultMessage": "Student",
+    "message": "Пользователь"
+  },
+  {
+    "id": "profile.accessRoles",
+    "description": "Access roles",
+    "defaultMessage": "Access roles",
+    "message": "Роли в системе"
+  },
+  {
+    "id": "accessLevelEditor.labelPublisher",
+    "description": "Publisher",
+    "defaultMessage": "Publisher",
+    "message": "Правообладатель"
+  },
+  {
+    "id": "accessLevelEditor.labelRegionAdmin",
+    "description": "Region Admin",
+    "defaultMessage": "Region Admin",
+    "message": "Администратор муниципалитета"
+  },
+  {
+    "id": "accessLevelEditor.labelSchoolAdmin",
+    "description": "School Admin",
+    "defaultMessage": "School Admin",
+    "message": "Администратор школы"
+  },
+  {
+    "id": "publisherSelector.label",
+    "description": "Publisher",
+    "defaultMessage": "Publisher",
+    "message": "Правообладатель"
+  },
+  {
+    "id": "publisherView.edit",
+    "description": "Edit",
+    "defaultMessage": "Edit",
+    "message": "Редактировать"
+  },
+  {
+    "id": "publisherView.adress",
+    "description": "Adress",
+    "defaultMessage": "Adress",
+    "message": "Адрес"
+  },
+  {
+    "id": "publisherView.description",
+    "description": "Description",
+    "defaultMessage": "Description",
+    "message": "Описание"
+  },
+  {
+    "id": "publisherView.label",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "publisherView.phone",
+    "description": "Phone",
+    "defaultMessage": "Phone",
+    "message": "Телефон"
+  },
+  {
+    "id": "publisherView.support",
+    "description": "Support",
+    "defaultMessage": "Support",
+    "message": "Контакты поддержки"
+  },
+  {
+    "id": "routes.publisher.title",
+    "description": "Publisher title",
+    "defaultMessage": "Publisher",
+    "message": "Правообладатель"
+  },
+  {
+    "id": "mainmenu.publisher",
+    "description": "Publisher menu item",
+    "defaultMessage": "Publisher",
+    "message": "Правообладатель"
+  },
+  {
+    "id": "publisherEditor.adress",
+    "description": "Adress",
+    "defaultMessage": "Adress",
+    "message": "Адрес"
+  },
+  {
+    "id": "publisherEditor.adressHint",
+    "description": "Publisher adress hint text",
+    "defaultMessage": "Publisher adress",
+    "message": "Адрес издательства"
+  },
+  {
+    "id": "publisherEditor.description",
+    "description": "Description",
+    "defaultMessage": "Description",
+    "message": "Описание"
+  },
+  {
+    "id": "publisherEditor.descriptionHint",
+    "description": "Publisher description hint text",
+    "defaultMessage": "Publisher description",
+    "message": "Описание издательсва"
+  },
+  {
+    "id": "publisherEditor.phone",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Телефон"
+  },
+  {
+    "id": "publisherEditor.phoneHint",
+    "description": "Publisher phone hint text",
+    "defaultMessage": "Publisher phone",
+    "message": "Телефон издательсва"
+  },
+  {
+    "id": "publisherEditor.support",
+    "description": "Support",
+    "defaultMessage": "Support",
+    "message": "Контакты поддержки"
+  },
+  {
+    "id": "publisherEditor.supportHint",
+    "description": "Publisher support hint text",
+    "defaultMessage": "Publisher support",
+    "message": "Контакты поддержки издательсва"
+  },
+  {
+    "id": "profile.publisher",
+    "description": "Publisher",
+    "defaultMessage": "Publisher",
+    "message": "Издательство"
+  },
+  {
+    "id": "regionSelector.label",
+    "description": "Region",
+    "defaultMessage": "Region",
+    "message": "Район"
+  },
+  {
+    "id": "reports.hasNotAvailableFilters",
+    "description": "Has not available filters",
+    "defaultMessage": "Has not available filters",
+    "message": "Фильтры не применены. У отчета нет доступных фильтров"
+  },
+  {
+    "id": "schoolEditor.address",
+    "description": "Address",
+    "defaultMessage": "Address",
+    "message": "Адрес"
+  },
+  {
+    "id": "schoolEditor.addressHint",
+    "description": "Lenin, 1",
+    "defaultMessage": "Lenin str., 1",
+    "message": "ул. Ленина, д.1"
+  },
+  {
+    "id": "schoolList.columnAddress",
+    "description": "Address",
+    "defaultMessage": "Address",
+    "message": "Адрес"
+  },
+  {
+    "id": "accessLevelEditor.labelGlobalAdminAnopchenko",
+    "description": "Admin of Moscow region",
+    "defaultMessage": "Admin of Moscow region",
+    "message": "Администратор МО"
+  },
+  {
+    "id": "profile.accessRoleGlobalAdminAnopchenko",
+    "description": "Admin of Moscow",
+    "defaultMessage": "Admin of Moscow",
+    "message": "Администратор МО"
+  },
+  {
+    "id": "reportFourPointOne.name",
+    "description": "Report 4.1",
+    "defaultMessage": "Report 4.1",
+    "message": "Реестр обучающихся общеобразовательных организаций в Московской области, получивших доступ к Витрине ЭОР"
+  },
+  {
+    "id": "registration.grade",
+    "description": "Grade",
+    "defaultMessage": "Grade",
+    "message": "Класс"
+  },
+  {
+    "id": "registration.gradeHint",
+    "description": "1A",
+    "defaultMessage": "1A",
+    "message": "1А"
+  },
+  {
+    "id": "userEditor.grade",
+    "description": "Grade",
+    "defaultMessage": "Grade",
+    "message": "Класс"
+  },
+  {
+    "id": "userEditor.gradeHint",
+    "description": "1A",
+    "defaultMessage": "1A",
+    "message": "1А"
+  },
+  {
+    "id": "balanceRedistribution.activeSchools",
+    "description": "Active schools",
+    "defaultMessage": "Active schools",
+    "message": "Активные школы"
+  },
+  {
+    "id": "balanceRedistribution.balanceToBurn",
+    "description": "Balance to burn",
+    "defaultMessage": "Balance to burn",
+    "message": "Будет списано баллов"
+  },
+  {
+    "id": "balanceRedistribution.balanceToDeposit",
+    "description": "Balance to deposit",
+    "defaultMessage": "Balance to deposit",
+    "message": "Баллы для начисления каждой активной школе"
+  },
+  {
+    "id": "balanceRedistribution.close",
+    "description": "Close",
+    "defaultMessage": "Close",
+    "message": "Закрыть"
+  },
+  {
+    "id": "balanceRedistribution.columnBalance",
+    "description": "Current balance",
+    "defaultMessage": "Current balance",
+    "message": "Баланс"
+  },
+  {
+    "id": "balanceRedistribution.columnLocality",
+    "description": "Locality",
+    "defaultMessage": "Locality",
+    "message": "Населенный пункт"
+  },
+  {
+    "id": "balanceRedistribution.columnName",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": "Название"
+  },
+  {
+    "id": "balanceRedistribution.columnRegion",
+    "description": "Region",
+    "defaultMessage": "Region",
+    "message": "Район"
+  },
+  {
+    "id": "balanceRedistribution.inactiveSchools",
+    "description": "Inactive schools",
+    "defaultMessage": "Inactive schools",
+    "message": "Неактивные школы"
+  },
+  {
+    "id": "balanceRedistribution.redistribute",
+    "description": "Redistribute",
+    "defaultMessage": "Redistribute",
+    "message": "Перераспределить"
+  },
+  {
+    "id": "mainmenu.balanceRedistribution",
+    "description": "Balance redistribution",
+    "defaultMessage": "Balance redistribution",
+    "message": "Перераспределение баланса"
+  },
+  {
+    "id": "routes.balanceRedistribution.title",
+    "description": "Balance redistribution",
+    "defaultMessage": "Balance redistribution",
+    "message": "Перераспределение баланса"
+  },
+  {
+    "id": "userEditor.mosregId",
+    "description": "ISUOD ID",
+    "defaultMessage": "ISUOD ID",
+    "message": "ИД ИСУОД"
+  },
+  {
+    "id": "userEditor.userType",
+    "description": "User type",
+    "defaultMessage": "User type",
+    "message": "Тип пользователя"
+  },
+  {
+    "id": "userEditor.userTypeLocal",
+    "description": "Local",
+    "defaultMessage": "Local",
+    "message": "Локальный"
+  },
+  {
+    "id": "userEditor.userTypeMosreg",
+    "description": "ISUOD",
+    "defaultMessage": "ISUOD",
+    "message": "ИСУОД"
+  },
+  {
+    "id": "schoolList.filterLabelRegion",
+    "description": "Region",
+    "defaultMessage": "Region",
+    "message": "Район"
+  },
+  {
+    "id": "userEditor.activated",
+    "description": "Activated",
+    "defaultMessage": "Activated",
+    "message": "Учетная запись активирована"
+  },
+  {
+    "id": "userActivation.successfullyActivatedMessage",
+    "description": "Your account has been successfully activated!",
+    "defaultMessage": "Your account has been successfully activated! Now you can use the application. Click the button below to go to the login page.",
+    "message": "Аккаунт успешно активирован! Теперь вы можете использовать приложение. Нажмите на кнопку ниже для перехода на страницу авторизации."
+  },
+  {
+    "id": "userActivation.activationErrorMessage",
+    "description": "An error has occurred. Check the link and/or try again later.",
+    "defaultMessage": "An error has occurred. Check the link and/or try again later.",
+    "message": "Произошла ошибка при активации. Проверьте ссылку и повторите попытку."
+  },
+  {
+    "id": "userActivation.goToLoginButton",
+    "description": "Go to the login page",
+    "defaultMessage": "Go to the login page",
+    "message": "Перейти на страницу авторизации"
+  },
+  {
+    "id": "routes.activateUser.title",
+    "description": "Activate user",
+    "defaultMessage": "Activate user",
+    "message": "Активировать пользователя"
+  },
+  {
+    "id": "login.dialogTitle",
+    "description": "Account activation information",
+    "defaultMessage": "Account activation information",
+    "message": "Информация об активации аккаунта",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "login.dialogText",
+    "description": "Please check your e-mail. Follow the link in the email message to activate your account.",
+    "defaultMessage": "Please check your e-mail. Follow instructions in the email message to activate your account.",
+    "message": "На указанный Вами электронный адрес должно прийти письмо со ссылкой на активацию аккаунта. Пожалуйста, проверьте Ваш ящик электронной почты и следуйте инструкциям в письме.",
+    "files": [
+      "src/components/Login/Login.js"
+    ]
+  },
+  {
+    "id": "reports.makeReport",
+    "description": "Download report",
+    "defaultMessage": "Download report",
+    "message": "Скачать"
+  },
+  {
+    "id": "reports.makeReportJson",
+    "description": "Show report",
+    "defaultMessage": "Show report",
+    "message": "Показать"
+  },
+  {
+    "id": "userRoleEditor.labelStaff",
+    "description": "Staff",
+    "defaultMessage": "Staff",
+    "message": "Сотрудник"
+  },
+  {
+    "id": "userEditor.schoolApproved",
+    "description": "Approved",
+    "defaultMessage": "Approved",
+    "message": "Принадлежность к школе подтверждена"
+  },
+  {
+    "id": "waitingToApproved.text",
+    "description": "Waiting text",
+    "defaultMessage": "To access the showcase, wait for the school administrator to confirm.",
+    "message": "Для получения доступа к витрине дождитесь подтверждения администратора школы"
+  },
+  {
+    "id": "userEditor.schoolApprovedConfirm",
+    "description": "Approved Confirm",
+    "defaultMessage": "The belonging of this user to the school is not confirmed. Do you really want to continue?",
+    "message": "Принадлежность данного пользователя к школе не подтверждена. Вы действительно хотите продолжить?"
+  },
+  {
+    "id": "usersList.columnSchoolApproved",
+    "description": "Status",
+    "defaultMessage": "Status",
+    "message": "Статус",
+    "files": [
+      "src/components/UsersList/UsersList.js"
+    ]
+  },
+  {
+    "id": "schoolApprovedSelector.label",
+    "description": "Status",
+    "defaultMessage": "Status",
+    "message": "Статус"
+  },
+  {
+    "id": "schoolApprovedSelector.labelApproved",
+    "description": "Approved",
+    "defaultMessage": "Approved",
+    "message": "Подтвержден"
+  },
+  {
+    "id": "schoolApprovedSelector.labelNotApproved",
+    "description": "Not approved",
+    "defaultMessage": "Not approved",
+    "message": "Не подтвержден"
+  },
+  {
+    "id": "userEditor.position",
+    "description": "Position",
+    "defaultMessage": "Position",
+    "message": "Должность"
+  },
+  {
+    "id": "userEditor.positionHint",
+    "description": "Teacher",
+    "defaultMessage": "Teacher",
+    "message": "Учитель"
+  },
+  {
+    "id": "accessLevelEditor.labelTeacher",
+    "description": "Teacher",
+    "defaultMessage": "Teacher",
+    "message": "Учитель"
+  },
+  {
+    "id": "profile.accessRoleTeacher",
+    "description": "Teacher",
+    "defaultMessage": "Teacher",
+    "message": "Учитель"
+  },
+  {
+    "id": "userRoleEditor.labelSchoolAdmin",
+    "description": "School Admin",
+    "defaultMessage": "School Admin",
+    "message": "Администратор ОО"
+  },
+  {
+    "id": "reports.transactionDate",
+    "description": "Transaction Date",
+    "defaultMessage": "Transaction Date",
+    "message": "Дата осуществления транзакции"
+  },
+  {
+    "id": "goBackBtn.label",
+    "description": "Go Back Button",
+    "defaultMessage": "Go Back",
+    "message": "Назад",
+    "files": [
+      "src/components/GoBackButton/GoBackButton.js"
+    ]
+  },
+  {
+    "id": "subjectEditor.selectGroup",
+    "description": "Select the group",
+    "defaultMessage": "Select the group",
+    "message": "Укажите предметную область"
+  },
+  {
+    "id": "subjectEditor.selectLevel",
+    "description": "Select the level",
+    "defaultMessage": "Select the level",
+    "message": "Укажите уровень образования"
+  },
+  {
+    "id": "demoAccessSelector.label",
+    "description": "Has demo access",
+    "defaultMessage": "Has demo access",
+    "message": "Наличие демодоступа"
+  },
+  {
+    "id": "demoAccessSelector.labelHasDemoAccess",
+    "description": "Has demo access",
+    "defaultMessage": "Has demo access",
+    "message": "Есть демодоступ"
+  },
+  {
+    "id": "demoAccessSelector.labelHasNotDemoAccess",
+    "description": "Has not demo access",
+    "defaultMessage": "Has not demo access",
+    "message": "Нет демодоступа"
+  },
+  {
+    "id": "eorShowcaseList.filterLabelHasDemoAccess",
+    "description": "Has demo access",
+    "defaultMessage": "Has demo access",
+    "message": "Наличие демодоступа"
+  },
+  {
+    "id": "eorShowcaseList.filterLabelThemesCount",
+    "description": "Themes count",
+    "defaultMessage": "Themes count",
+    "message": "Количество тем (уроков)"
+  },
+  {
+    "id": "ThemeSelector.label",
+    "description": "Theme",
+    "defaultMessage": "Theme",
+    "message": "Тема, урок"
+  },
+  {
+    "id": "eorShowcaseList.filterLabelTheme",
+    "description": "Theme",
+    "defaultMessage": "Theme",
+    "message": "Тема, урок"
+  },
+  {
+    "id": "themeSelector.label",
+    "description": "Theme",
+    "defaultMessage": "Theme",
+    "message": "Тема, урок"
+  },
+  {
+    "id": "reportStats.balance",
+    "description": "Total number of points spent",
+    "defaultMessage": "Total number of points spent",
+    "message": "Общее количество потраченных баллов"
+  },
+  {
+    "id": "reportStats.eorElements",
+    "description": "Number of activated EOR elements",
+    "defaultMessage": "Number of activated EOR elements",
+    "message": "Количество активированных единиц ЭОР"
+  },
+  {
+    "id": "reportStats.of",
+    "description": "Of",
+    "defaultMessage": "Of",
+    "message": "из"
+  },
+  {
+    "id": "reportStats.schools",
+    "description": "Number of schools who signed the license agreement",
+    "defaultMessage": "Number of schools who signed the license agreement",
+    "message": "Количество ОО подписавших лицензионное соглашение"
+  },
+  {
+    "id": "reportStats.students",
+    "description": "Number of registered students",
+    "defaultMessage": "Number of registered students",
+    "message": "Количество зарегистрированных учеников"
+  },
+  {
+    "id": "reportStats.teachers",
+    "description": "Number of registered teachers",
+    "defaultMessage": "Number of registered teachers",
+    "message": "Количество зарегистрированных учителей"
+  },
+  {
+    "id": "reportStats.eorActivations",
+    "description": "Number of EOR activations",
+    "defaultMessage": "Number of EOR activations",
+    "message": "Количество активированных лицензий единиц ЭОР"
+  },
+  {
+    "id": "reportStats.users",
+    "description": "Number of registered users",
+    "defaultMessage": "Number of registered users",
+    "message": "Количество зарегистрированных пользователей"
+  },
+  {
+    "id": "multimediaLevelEditor.label3DImage",
+    "description": "3D image",
+    "defaultMessage": "4 - 3D image",
+    "message": "4 - Трехмерное изображение"
+  },
+  {
+    "id": "multimediaLevelEditor.label3DSpace",
+    "description": "3D space",
+    "defaultMessage": "5 - 3D space",
+    "message": "5 - Трехмерное виртуальное пространство"
+  },
+  {
+    "id": "multimediaLevelEditor.labelImage",
+    "description": "Image",
+    "defaultMessage": "2 - Image",
+    "message": "2 - Статическая графика"
+  },
+  {
+    "id": "multimediaLevelEditor.labelText",
+    "description": "Text",
+    "defaultMessage": "1 - Text",
+    "message": "1 - Текст"
+  },
+  {
+    "id": "multimediaLevelEditor.labelVideo",
+    "description": "Video",
+    "defaultMessage": "3 - Video",
+    "message": "3 - Видео/анимация, звук"
+  },
+  {
+    "id": "interactivityLevelEditor.levelFour",
+    "description": "Level 4",
+    "defaultMessage": "Level 4",
+    "message": "4 – не менее 1 исследовательской формы интерактивного взаимодействия"
+  },
+  {
+    "id": "interactivityLevelEditor.levelOne",
+    "description": "Level 1",
+    "defaultMessage": "Level 1",
+    "message": "1 – простейшие (условно-пассивные) формы интерактивного взаимодействия с пользователем"
+  },
+  {
+    "id": "interactivityLevelEditor.levelThree",
+    "description": "Level 3",
+    "defaultMessage": "Level 3",
+    "message": "3 – не менее 2 деятельностных форм интерактивного взаимодействия"
+  },
+  {
+    "id": "interactivityLevelEditor.levelTwo",
+    "description": "Level 2",
+    "defaultMessage": "Level 2",
+    "message": "2 – не менее 2 активных форм интерактивного взаимодействия с пользователем"
+  },
+  {
+    "id": "eorElementViewer.levelFour",
+    "description": "Level 4",
+    "defaultMessage": "Level 4",
+    "message": "4 – не менее 1 исследовательской формы интерактивного взаимодействия, с возможностью получения не определенных заранее множества комбинаций – генерация оригинальных интерактивных композиций, исследование объектов методом моделирования, многовариантное взаимодействие в виртуальном пространстве с программной генерацией адекватных ответных реакций);"
+  },
+  {
+    "id": "eorElementViewer.levelOne",
+    "description": "Level 1",
+    "defaultMessage": "Level 1",
+    "message": "1 – простейшие (условно-пассивные) формы интерактивного взаимодействия с пользователем – неконтролируемый ввод, масштабирование или свободное перемещение объекта, вызов текстовых и звуковых подсказок и всплывающих окон, управление последовательностью медиа-элементов, навигация с помощью гиперссылок и визуальных объектов;"
+  },
+  {
+    "id": "eorElementViewer.levelThree",
+    "description": "Level 3",
+    "defaultMessage": "Level 3",
+    "message": "3 – не менее 2 деятельностных форм интерактивного взаимодействия – контролируемый ввод текста или медиа-элемента, перемещение объектов для установления их соотношений, совмещение объектов для изменения их свойств или получения новых объектов, объединение объектов связями с целью организации определенной системы, взаимодействие с объектами мультимедиа-композиции, контролируемое выполнение определенной последовательности действий с пошаговыми подсказками, изменение представления контента, активизация элементов многофакторной мультимедиа-композиции путем выбора произвольной комбинации из определенных значений различных параметров, изменение параметров/характеристик процессов в произвольной комбинации дискретных значений с аудио-визуальным представлением результатов, декомпозиция сложной системы, совместная разработка символьных конструкций и аудиовизуального контента;"
+  },
+  {
+    "id": "eorElementViewer.levelTwo",
+    "description": "Level 2",
+    "defaultMessage": "Level 2",
+    "message": "2 – не менее 2 активных форм интерактивного взаимодействия с пользователем (множественный выбор, вращение объемных тел, изменение угла зрения для просмотра трехмерных композиций, перемещение в трехмерном пространстве, запуск мультимедиа-композиции; в том числе видеофрагмента, анимации), изменение состава мультимедиа-композиции или 1 деятельностная и хотя бы 1 активная форма интерактивного взаимодействия;"
+  },
+  {
+    "id": "reportStats.data",
+    "description": "Data",
+    "defaultMessage": "Data",
+    "message": "Данные"
+  },
+  {
+    "id": "reportStats.general",
+    "description": "General Information about EOR Showcase",
+    "defaultMessage": "General Information about EOR Showcase",
+    "message": "Общие данные о Витрине ЭОР"
+  },
+  {
+    "id": "reportStats.indicator",
+    "description": "Indicator",
+    "defaultMessage": "Indicator",
+    "message": "Показатель"
+  },
+  {
+    "id": "typeOfContentEditor.itemConstructor",
+    "description": "Interactive constructor",
+    "defaultMessage": "Interactive constructor",
+    "message": "Интерактивный конструктор"
+  },
+  {
+    "id": "typeOfContentEditor.itemControlMaterial",
+    "description": "Control material",
+    "defaultMessage": "Control material",
+    "message": "Контрольно-измерительный материал"
+  },
+  {
+    "id": "typeOfContentEditor.itemHomeWork",
+    "description": "Home work",
+    "defaultMessage": "Home work",
+    "message": "Интерактивное домашнее задание (рабочая тетрадь)"
+  },
+  {
+    "id": "typeOfContentEditor.itemInteractivePoster",
+    "description": "Interactive poster",
+    "defaultMessage": "Interactive poster",
+    "message": "Интерактивный плакат"
+  },
+  {
+    "id": "typeOfContentEditor.itemLaboratoryWork",
+    "description": "Laboratory work",
+    "defaultMessage": "Laboratory work",
+    "message": "Виртуальная лабораторная работа"
+  },
+  {
+    "id": "typeOfContentEditor.itemPresentation",
+    "description": "Presentation",
+    "defaultMessage": "Presentation",
+    "message": "Мультимедийная презентация"
+  },
+  {
+    "id": "typeOfContentEditor.itemTest",
+    "description": "Test",
+    "defaultMessage": "Test",
+    "message": "Тест"
+  },
+  {
+    "id": "typeOfContentEditor.itemTrainer",
+    "description": "Trainer",
+    "defaultMessage": "Trainer",
+    "message": "Тренажер"
+  },
+  {
+    "id": "eorShowcaseList.filterLabelTypeOfContent",
+    "description": "Type of content",
+    "defaultMessage": "Type of content",
+    "message": "Вид ЭОР"
+  },
+  {
+    "id": "eorShowcaseList.filterLabelTags",
+    "description": "Tags",
+    "defaultMessage": "Tags",
+    "message": "Тэги"
+  },
+  {
+    "id": "eorShowcaseList.filterLabelSystemRequirements",
+    "description": "System requirements",
+    "defaultMessage": "System requirements",
+    "message": "ОС/Платформа"
+  },
+  {
+    "id": "systemRequirementsEditor.label",
+    "description": "System requirements",
+    "defaultMessage": "System requirements",
+    "message": "ОС/Платформа"
+  },
+  {
+    "id": "eorElementViewer.systemRequirements",
+    "description": "System requirements",
+    "defaultMessage": "System requirements",
+    "message": "ОС/Платформа"
+  },
+  {
+    "id": "eorShowcaseItem.alreadyActivated",
+    "description": "Activated",
+    "defaultMessage": "Activated",
+    "message": "Активировано"
+  },
+  {
+    "id": "registration.errorPasswordLengthError",
+    "description": "Passwords must be at least 8 symbols length",
+    "defaultMessage": "Passwords must be at least 5 symbols length",
+    "message": "Длина пароля должна быть не менее 5 символов"
+  },
+  {
+    "id": "registration.errorPasswordComplexityError",
+    "description": "Passwords must contain at least one character and digit",
+    "defaultMessage": "Passwords must contain at least one character and digit",
+    "message": "Пароль должен содержать как минимум одну букву и одну цифру"
+  },
+  {
+    "id": "adobeFlashNotice.hasFlash",
+    "description": "Has flash",
+    "defaultMessage": "The content may require Adobe Flash Player. Please make sure that you have Adobe Flash Player installed or install it using this link",
+    "message": "Электронные образовательные ресурсы могут в себе содержать flash-элементы. Для их воспроизведения необходимо установить плагин Adobe Flash Player. Ссылка для установки"
+  }
+]

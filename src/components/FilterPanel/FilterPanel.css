@@ -1,0 +1,10 @@
+@import '../../components/variables.css';
+
+.contianer {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.textField {
+  margin-right: 10px;
+}

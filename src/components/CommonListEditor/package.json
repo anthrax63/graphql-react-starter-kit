@@ -1,0 +1,6 @@
+{
+  "name": "CommonListEditor",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CommonListEditor.js"
+}

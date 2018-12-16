@@ -1,0 +1,6 @@
+{
+  "name": "FilterPanel",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./FilterPanel.js"
+}

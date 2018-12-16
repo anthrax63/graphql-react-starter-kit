@@ -1,0 +1,6 @@
+{
+  "name": "UserChip",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./UserChip.js"
+}

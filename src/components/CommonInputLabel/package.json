@@ -1,0 +1,6 @@
+{
+  "name": "CommonInputLabel",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CommonInputLabel.js"
+}

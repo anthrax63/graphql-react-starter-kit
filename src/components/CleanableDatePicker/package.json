@@ -1,0 +1,6 @@
+{
+  "name": "CleanableDatePicker",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CleanableDatePicker.js"
+}
